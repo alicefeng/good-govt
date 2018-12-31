@@ -52,7 +52,7 @@ function makeScatterPlot(data) {
 		.attr("y", -5)
 		.style("fill", "#000")
 		.attr("text-anchor", "end")
-		.text("USD per capita");
+		.text("Education expenditure per person (USD per capita)");
 
 	svg.append("g")
 		.attr("class", "y axis")
@@ -63,7 +63,8 @@ function makeScatterPlot(data) {
 		.attr("transform", "rotate(90)")
 		.attr("text-anchor", "start")
 		.attr("fill", "#000")
-		.text("Current international $");
+		.text("Health expenditure per person (current international $)");
+
 
 	var countries = svg.selectAll(".country")
 		.data(data.filter(function(d) { return !isNaN(d.edu_expenditure_per_person) && !isNaN(d.health_expenditure_per_person); }))

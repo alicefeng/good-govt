@@ -69,3 +69,18 @@ li.superstar.country.highlighted {
 li::before {
     background-color: #ffe5cc;
 }
+
+#health_ed_plot {
+    position: relative;
+}
+
+.label {
+    width: 150px;
+    position: absolute;
+    font-size: 14px;
+    top: 20px;
+}
+
+.ed.label {
+    left: 420px;
+}
