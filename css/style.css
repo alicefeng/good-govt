@@ -72,6 +72,7 @@ li::before {
 
 #health_ed_plot {
     position: relative;
+    height: 700px;
 }
 
 .label {

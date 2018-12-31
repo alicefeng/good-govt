@@ -4,6 +4,10 @@ var margin = {top:20, right: 20, bottom: 20, left: 40},
 
 var edScale = d3.scaleLinear().range([0, width]);
 var healthScale = d3.scaleLinear().range([height, 0]);
+var systemMetricsScale = d3.scalePoint()
+	.domain(["political_stability", "gov_effectiveness", "regulatory_quality", "rule_of_law", "control_corruption", "judicial_effectiveness_score", "government_integrity_score", "property_rights_score", "overall_economic_freedom_score", "financial_freedom_score"])
+	.range([height - 25, 25]);
+var metricScoreScale = d3.scaleLinear().range([0, width]);
 var colorScale = d3.scaleOrdinal().domain([0, 1, 2]).range(["#d2d2d2", "#d2d2d2", "#ffe5cc"]);
 
 d3.csv("data/data.csv", function(d) {
@@ -27,10 +31,11 @@ d3.csv("data/data.csv", function(d) {
 }, function(error, data) {
 	if(error) throw error;
 
-	console.log(data);
+	// console.log(data);
 	edScale.domain([0, d3.max(data, function(d) { return d.edu_expenditure_per_person; })]).nice();
 	healthScale.domain([0, d3.max(data, function(d) { return d.health_expenditure_per_person; })]).nice();
 	makeScatterPlot(data);
+	makeDotPlot(data);
 });
 
 function makeScatterPlot(data) {
@@ -74,5 +79,66 @@ function makeScatterPlot(data) {
 		.attr("r", 5)
 		.attr("cx", function(d) { return edScale(d.edu_expenditure_per_person); })
 		.attr("cy", function(d) { return healthScale(d.health_expenditure_per_person); })
+		.style("fill", function(d) { return colorScale(d.top_country); });
+}
+
+function makeDotPlot(data) {
+	var svg = d3.select("#stable_system")
+		.append("svg")
+		.attr("width", width + margin["left"] + margin["right"])
+		.attr("height", height + margin["top"] + margin["bottom"])
+		.append("g")
+		.attr("transform", "translate(" + margin["left"] + "," + margin["top"] + ")");
+
+	// svg.append("g")
+	// 	.attr("class", "x axis")
+	// 	.attr("transform", "translate(0," + height + ")")
+	// 	.call(d3.axisBottom(edScale))
+	// 	.append("text")
+	// 	.attr("x", width)
+	// 	.attr("y", -5)
+	// 	.style("fill", "#000")
+	// 	.attr("text-anchor", "end")
+	// 	.text("Education expenditure per person (USD per capita)");
+
+	// svg.append("g")
+	// 	.attr("class", "y axis")
+	// 	.call(d3.axisLeft(healthScale))
+	// 	.append("text")
+	// 	.attr("x", 4)
+	// 	.attr("y", -5)
+	// 	.attr("transform", "rotate(90)")
+	// 	.attr("text-anchor", "start")
+	// 	.attr("fill", "#000")
+	// 	.text("Health expenditure per person (current international $)");
+	metricScoreScale.domain(d3.extent(data, function(d) { return d.political_stability; }));
+
+	var simulation = d3.forceSimulation(data.filter(function(d) { return !isNaN(d.political_stability); }))
+		.force("x", d3.forceX(function(d) { return metricScoreScale(d.political_stability); }).strength(1))
+		.force("y", d3.forceY(systemMetricsScale("overall_economic_freedom_score")))
+		.force("collide", d3.forceCollide(4))
+		.stop();
+
+	for(var i = 0; i < data.filter(function(d) { return !isNaN(d.political_stability); }).length; ++i) simulation.tick();
+
+	var countries2 = svg.selectAll(".country2")
+		.data(data.filter(function(d) { return !isNaN(d.political_stability); }))
+		.enter()
+		.append("circle")
+		.attr("class", "country2")
+		.attr("r", 4)
+		.attr("cx", function(d) { return d.x; })
+		.attr("cy", function(d) { return d.y; })
+		.style("fill", function(d) { return colorScale(d.top_country); });
+
+	var countries = svg.selectAll(".country")
+		.data(data.filter(function(d) { return !isNaN(d.political_stability); }))
+		.enter()
+		.append("circle")
+		.attr("class", "country")
+		.attr("r", 5)
+		.attr("cx", function(d) { return metricScoreScale(d.political_stability); })
+		.attr("cy", function(d) { return systemMetricsScale("political_stability"); })
+		.style("opacity", 0.8)
 		.style("fill", function(d) { return colorScale(d.top_country); });
 }
