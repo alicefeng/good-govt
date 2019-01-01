@@ -85,3 +85,7 @@ li::before {
 .ed.label {
     left: 420px;
 }
+
+.metricLabel {
+    font-size: 12px;
+}
