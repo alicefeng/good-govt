@@ -1,13 +1,13 @@
-var margin = {top: 20, right: 20, bottom: 20, left: 40},
+var margin = {top: 50, right: 20, bottom: 20, left: 40},
 	width = 450,
 	height = 450;
 
 var edScale = d3.scaleLinear().range([0, width]);
 var healthScale = d3.scaleLinear().range([height, 0]);
 
-var beeMargin = {top: 20, right: 75, bottom: 20, left: 75},
+var beeMargin = {top: 20, right: 55, bottom: 20, left: 120},
 	beeWidth = 700,
-	beeHeight = 500;
+	beeHeight = 450;
 
 var systemMetricsScale = d3.scalePoint()
 	.range([0, beeWidth]);
@@ -71,7 +71,7 @@ function makeScatterPlot(data) {
 		.attr("width", width + margin["left"] + margin["right"])
 		.attr("height", height + margin["top"] + margin["bottom"])
 		// .attr("transform-origin", "top left")
-		.attr("transform", "rotate(-45)")
+		.attr("transform", "rotate(-46)")
 		.append("g")
 		.attr("transform", "translate(" + margin["left"] + "," + margin["top"] + ")");
 
@@ -133,7 +133,7 @@ function makeBeeswarm(data, divId, vars, xScale) {
 	svg.append("text")
 		.attr("class", "metricLabel")
 		.attr("x", -beeMargin["left"])
-		.attr("y", 40)
+		.attr("y", 60)
 		.attr("fill", "#000")
 		.text("Better");
 
@@ -145,12 +145,12 @@ function makeBeeswarm(data, divId, vars, xScale) {
 		.text("Worse");
 
 	var simulation = d3.forceSimulation(data)
-		.force("x", d3.forceX(function(d) { return systemMetricsScale(d.metric); }))
+		.force("x", d3.forceX(function(d) { return systemMetricsScale(d.metric); }).strength(0.2))
 		.force("y", d3.forceY(function(d) { return xScale(d.score); }).strength(1))
 		.force("collide", d3.forceCollide(4))
 		.stop();
 
-	for(var i = 0; i < 20; ++i) simulation.tick();
+	for(var i = 0; i < 200; ++i) simulation.tick();
 
 	var countries = svg.selectAll(".country")
 		.data(data)

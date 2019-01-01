@@ -9,6 +9,7 @@ body {
 
 main {
     width: 60vw;
+    min-width: 800px;
     margin: 0 auto;
 }
 
@@ -25,6 +26,7 @@ h1 {
 
 h3 {
     font-weight: 400;
+    margin-bottom: 50px;
 }
 
 h4 {
@@ -33,8 +35,16 @@ h4 {
     margin-bottom: 0;
 }
 
+section {
+    width: 100%;
+}
+
+section.top_20_countries {
+    display: inline-block;
+}
+
 div.rankings {
-    width: 13vw;
+    width: 22%;
     margin-right: 20px;
     float: left;
 }
@@ -70,20 +80,26 @@ li::before {
     background-color: #ffe5cc;
 }
 
+div.chart {
+    margin-bottom: 40px;
+}
+
 #health_ed_plot {
     position: relative;
-    height: 700px;
+    height: 650px;
+    width: 600px;
+    margin-left: 15%;
 }
 
 .label {
     width: 150px;
     position: absolute;
     font-size: 14px;
-    top: 20px;
+    top: 10px;
 }
 
 .ed.label {
-    left: 420px;
+    left: 425px;
 }
 
 .metricLabel {
