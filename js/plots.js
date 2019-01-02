@@ -1,3 +1,5 @@
+var COMMAFMT = d3.format(",.0f");
+
 var margin = {top: 50, right: 20, bottom: 20, left: 40},
 	width = 450,
 	height = 450;
@@ -106,7 +108,9 @@ function makeScatterPlot(data) {
 		.attr("r", 5)
 		.attr("cx", function(d) { return edScale(d.edu_expenditure_per_person); })
 		.attr("cy", function(d) { return healthScale(d.health_expenditure_per_person); })
-		.style("fill", function(d) { return colorScale(d.top_country); });
+		.style("fill", function(d) { return colorScale(d.top_country); })
+		.on("mouseover", function(d) { showTooltip(d); })
+		.on("mouseout", hideTooltip);
 }
 
 function makeBeeswarm(data, divId, vars, xScale) {
@@ -161,4 +165,15 @@ function makeBeeswarm(data, divId, vars, xScale) {
 		.attr("cx", function(d) { return d.x; })
 		.attr("cy", function(d) { return d.y; })
 		.style("fill", function(d) { return colorScale(d.top_country); });
+}
+
+function showTooltip(d) {
+	d3.select("#health_ed_plot .tooltip .country_name").text(d.country_name);
+	d3.select("#health_ed_plot .tooltip .health_spending").text(COMMAFMT(d.health_expenditure_per_person));
+	d3.select("#health_ed_plot .tooltip .edu_spending").text(COMMAFMT(d.edu_expenditure_per_person));
+	d3.select("#health_ed_plot .tooltip").classed("hidden", false);
+}
+
+function hideTooltip() {
+	d3.select("#health_ed_plot .tooltip").classed("hidden", true);
 }

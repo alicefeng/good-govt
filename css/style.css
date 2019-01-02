@@ -105,3 +105,26 @@ div.chart {
 .metricLabel {
     font-size: 12px;
 }
+
+.health_ed_plot.tooltip {
+    position: absolute;
+    top: 140px;
+    right: 0;
+    box-sizing: border-box;
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #d2d2d2;
+    font-size: 14px;
+    background-color: #fff;
+    z-index: 10;
+}
+
+.tooltip h5 {
+    font-weight: 400;
+    font-size: 1.25rem;
+    margin: 10px 0;
+}
+
+.hidden {
+    visibility: hidden;
+}
