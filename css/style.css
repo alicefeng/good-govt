@@ -128,3 +128,7 @@ div.chart {
 .hidden {
     visibility: hidden;
 }
+
+.stable_system.tooltip p.country_name {
+    text-align: center;
+}
