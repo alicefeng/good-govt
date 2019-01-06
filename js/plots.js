@@ -8,7 +8,7 @@
 	var edScale = d3.scaleLinear().range([0, width]);
 	var healthScale = d3.scaleLinear().range([height, 0]);
 
-	var beeMargin = {top: 20, right: 55, bottom: 20, left: 120},
+	var beeMargin = {top: 20, right: 65, bottom: 20, left: 120},
 		beeWidth = 700,
 		beeHeight = 450;
 
@@ -136,14 +136,14 @@
 			.text(function(d) { return d; });
 
 		svg.append("text")
-			.attr("class", "metricLabel")
+			.attr("class", "scaleLabel")
 			.attr("x", -beeMargin["left"])
 			.attr("y", 60)
 			.attr("fill", "#000")
 			.text("Better");
 
 		svg.append("text")
-			.attr("class", "metricLabel")
+			.attr("class", "scaleLabel")
 			.attr("x", -beeMargin["left"])
 			.attr("y", height - 30)
 			.attr("fill", "#000")

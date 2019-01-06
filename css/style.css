@@ -107,7 +107,12 @@ div.chart {
 }
 
 .metricLabel {
+    font-size: 14px;
+}
+
+.scaleLabel {
     font-size: 12px;
+    font-style: italic;
 }
 
 .health_ed_plot.tooltip {
