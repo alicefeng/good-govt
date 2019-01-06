@@ -7,6 +7,10 @@ body {
     margin: 0px;
 }
 
+text {
+    font-family: 'Roboto', sans-serif;
+}
+
 main {
     width: 60vw;
     min-width: 800px;
@@ -131,4 +135,17 @@ div.chart {
 
 .stable_system.tooltip p.country_name {
     text-align: center;
+}
+
+.countrySun text.countryName {
+    font-size: 14px;
+}
+
+.sun.center {
+    stroke-width: 2;
+    fill: #fff;
+}
+
+.sun.ray {
+    stroke-width: 2;
 }
