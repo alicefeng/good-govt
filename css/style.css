@@ -142,10 +142,10 @@ div.chart {
 }
 
 .sun.center {
-    stroke-width: 2;
+    stroke-width: 3;
     fill: #fff;
 }
 
-.sun.ray {
-    stroke-width: 2;
+.ray {
+    stroke-width: 3;
 }

@@ -2,7 +2,7 @@
 	var margin = {top: 15, right: 15, bottom: 15, left: 15},
 		width = 120,
 		height = 120,
-		r = 5;
+		r = 8;
 
 	var vars = {health_expend_ntile: "Health expenditure", edu_expend_ntile: "Education expenditure",
 				poli_stab_ntile: "Political stability", gov_effec_ntile: "Government effectiveness", reg_qual_ntile: "Regulatory quality",
@@ -63,13 +63,38 @@
 			.attr("r", r)
 			.style("stroke", function(d) { return colorScale(d.values[0].top_country); });
 
+		// add "grid" lines
+		svg.append("circle")
+			.attr("class", "sun gridline")
+			.attr("cx", width / 2)
+			.attr("cy", height / 2)
+			.attr("r", length(25))
+			.style("stroke", "#fff")
+			.style("fill", "none");
+
+		svg.append("circle")
+			.attr("class", "sun gridline")
+			.attr("cx", width / 2)
+			.attr("cy", height / 2)
+			.attr("r", length(50))
+			.style("stroke", "#fff")
+			.style("fill", "none");
+
+		svg.append("circle")
+			.attr("class", "sun gridline")
+			.attr("cx", width / 2)
+			.attr("cy", height / 2)
+			.attr("r", length(75))
+			.style("stroke", "#fff")
+			.style("fill", "none");
+
 		svg.append("text")
 			.attr("class", "countryName")
 			.attr("x", width / 2)
 			.attr("y", 15)
 			.attr("text-anchor", "middle")
 			.attr("fill", "#000")
-			.text(function(d) { return d.key; });
+			.text(function(d) { return d.key; }); // TODO: wrap names
 	}
 })();
 
