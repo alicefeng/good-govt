@@ -15,10 +15,28 @@ function removeHighlight() {
 	d3.selectAll("li.country").classed("highlighted", false);
 }
 
-function slugifyName(name) {
+function slugifyName(name) {  // TODO: need to manually code some country names that create invalid slugs (Korea (Rep.), Antigua & Barbuda)
 	var name_array = name.split(" ");
 	if(name_array.length === 1) {
 		return name;
+	}
+	else if(name === "Korea (Rep.)") {
+		return "Korea";
+	}
+	else if(name === "Korea (Dem. People's Rep.)") {
+		return "North_Korea";
+	}
+	else if(name === "Antigua & Barbuda") {
+		return "Antigua_Barbuda";
+	}
+	else if(name === "Congo (Dem. Rep.)") {
+		return "Congo_Dem_Rep";
+	}
+	else if(name === "Congo (Rep.)") {
+		return "Congo_Rep";
+	}
+	else if(name === "Cote d'Ivoire") {
+		return "Cote_dIvoire";
 	}
 	else {
 		return name_array.join("_");
