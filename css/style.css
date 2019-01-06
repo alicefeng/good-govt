@@ -139,6 +139,7 @@ div.chart {
 
 .countrySun text.countryName {
     font-size: 14px;
+    fill: #000;
 }
 
 .sun.center {

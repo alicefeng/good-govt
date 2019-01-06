@@ -40,23 +40,23 @@
 			.append("svg")
 			.attr("class", "countrySun")
 			.attr("width", width)
-			.attr("height", height)
-			// .attr("transform", "rotate(-46)")
-			.append("g")
-			.attr("transform", "translate(0,0)");
+			.attr("height", height);
 
-		var rays = svg.selectAll(".ray")
+		var suns = svg.append("g")
+			.attr("transform", "translate(0, 10)");
+
+		suns.selectAll(".ray")
 			.data(function(d) { return d.values; })
 			.enter()
 			.append("line")
-			.attr("class", "ray")
+			.attr("class", "sun ray")
 			.attr("x1", width / 2)
 			.attr("y1", height / 2)
 			.attr("x2", function(d) { return length(d.percentile) * Math.cos(rotationDegree(d.metric)) + (width/2); })
 			.attr("y2", function(d) { return length(d.percentile) * Math.sin(rotationDegree(d.metric)) + (height/2); })
 			.style("stroke", function(d) { return colorScale(d.top_country); });
 
-		svg.append("circle")
+		suns.append("circle")
 			.attr("class", "sun center")
 			.attr("cx", width / 2)
 			.attr("cy", height / 2)
@@ -64,7 +64,7 @@
 			.style("stroke", function(d) { return colorScale(d.values[0].top_country); });
 
 		// add "grid" lines
-		svg.append("circle")
+		suns.append("circle")
 			.attr("class", "sun gridline")
 			.attr("cx", width / 2)
 			.attr("cy", height / 2)
@@ -72,7 +72,7 @@
 			.style("stroke", "#fff")
 			.style("fill", "none");
 
-		svg.append("circle")
+		suns.append("circle")
 			.attr("class", "sun gridline")
 			.attr("cx", width / 2)
 			.attr("cy", height / 2)
@@ -80,7 +80,7 @@
 			.style("stroke", "#fff")
 			.style("fill", "none");
 
-		svg.append("circle")
+		suns.append("circle")
 			.attr("class", "sun gridline")
 			.attr("cx", width / 2)
 			.attr("cy", height / 2)
@@ -90,12 +90,38 @@
 
 		svg.append("text")
 			.attr("class", "countryName")
-			.attr("x", width / 2)
+			.attr("x", width/2)
 			.attr("y", 15)
-			.attr("text-anchor", "middle")
-			.attr("fill", "#000")
-			.text(function(d) { return d.key; }); // TODO: wrap names
+			.style("text-anchor", "middle")
+			.text(function(d) { return d.key; });
+
+		wrap(d3.selectAll("text.countryName"), width);
 	}
+
+	function wrap(text, width) {
+		text.each(function() {
+			var text = d3.select(this),
+				words = text.text().split(/\s+/).reverse(),
+				word,
+				line = [],
+				lineNumber = 0,
+				lineHeight = 1.1, // ems
+				y = text.attr("y"),
+				dy = 0.35,
+				tspan = text.text(null).append("tspan").attr("x", width/2).attr("y", y).attr("dy", dy + "em");
+			while (word = words.pop()) {
+				line.push(word);
+				tspan.text(line.join(" "));
+				if (tspan.node().getComputedTextLength() > width) {
+					line.pop();
+					tspan.text(line.join(" "));
+					line = [word];
+					tspan = text.append("tspan").attr("x", width/2).attr("y", y).attr("dy", ++lineNumber * lineHeight + dy + "em").text(word);
+				}
+			}
+		});
+	}
+
 })();
 
 
