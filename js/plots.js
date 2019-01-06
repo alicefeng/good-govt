@@ -63,12 +63,12 @@
 		edScale.domain([0, d3.max(data, function(d) { return d.edu_expenditure_per_person; })]).nice();
 		healthScale.domain([0, d3.max(data, function(d) { return d.health_expenditure_per_person; })]).nice();
 
-		makeScatterPlot(data);
+		makeScatterplot(data);
 		makeBeeswarm(metricsData.filter(function(d) { return wbVars.indexOf(d.metric) > -1; }), "#stable_system1", wbVars, wbScale);
 		makeBeeswarm(metricsData.filter(function(d) { return heritageVars.indexOf(d.metric) > -1; }), "#stable_system2", heritageVars, heritageScale);
 	});
 
-	function makeScatterPlot(data) {
+	function makeScatterplot(data) {
 		var svg = d3.select("#health_ed_plot")
 			.append("svg")
 			.attr("width", width + margin["left"] + margin["right"])
@@ -100,17 +100,27 @@
 			.attr("fill", "#000")
 			.text("Health expenditure per person (current international $)");
 
-
-		var countries = svg.selectAll(".country")
-			.data(data.filter(function(d) { return !isNaN(d.edu_expenditure_per_person) && !isNaN(d.health_expenditure_per_person); }))
+		// add voronoi around each circle to make it easier to mouseover
+		var cell = svg.append("g")
+			.attr("class", "cells country")
+			.selectAll("g")
+			.data(d3.voronoi()
+				.extent([[0, 0], [width, height]])
+				.x(function(d) { return edScale(d.edu_expenditure_per_person); })
+				.y(function(d) { return healthScale(d.health_expenditure_per_person); })
+				.polygons(data.filter(function(d) { return !isNaN(d.edu_expenditure_per_person) && !isNaN(d.health_expenditure_per_person); })))
 			.enter()
-			.append("circle")
-			.attr("class", "country")
+			.append("g");
+
+		cell.append("circle")
 			.attr("r", 5)
-			.attr("cx", function(d) { return edScale(d.edu_expenditure_per_person); })
-			.attr("cy", function(d) { return healthScale(d.health_expenditure_per_person); })
-			.style("fill", function(d) { return colorScale(d.top_country); })
-			.on("mouseover", function(d) { showTooltip("health_ed_plot", d); })
+			.attr("cx", function(d) { return edScale(d.data.edu_expenditure_per_person); })
+			.attr("cy", function(d) { return healthScale(d.data.health_expenditure_per_person); })
+			.style("fill", function(d) { return colorScale(d.data.top_country); });
+
+		cell.append("path")
+			.attr("d", function(d) { return "M" + d.join("L") + "Z"; })
+			.on("mouseover", function(d) {  showTooltip("health_ed_plot", d.data); })
 			.on("mouseout", hideTooltip);
 	}
 
@@ -156,6 +166,29 @@
 			.stop();
 
 		for(var i = 0; i < 200; ++i) simulation.tick();
+
+		// var cell = svg.append("g")
+		// 	.attr("class", "cells")
+		// 	.selectAll("g")
+		// 	.data(d3.voronoi()
+		// 		.extent([[0, 0], [beeWidth, beeHeight]])
+		// 		.x(function(d) { return d.x; })
+		// 		.y(function(d) { return d.y; })
+		// 		.polygons(data))
+		// 	.enter()
+		// 	.append("g");
+
+		// cell.append("circle")
+		// 	.attr("class", function(d) { return "country " + slugifyName(d.data.country_name); })
+		// 	.attr("r", 4)
+		// 	.attr("cx", function(d) { return d.data.x; })
+		// 	.attr("cy", function(d) { return d.data.y; })
+		// 	.style("fill", function(d) { return colorScale(d.data.top_country); });
+
+		// cell.append("path")
+			// .attr("d", function(d) { return "M" + d.join("L") + "Z"; });
+			// .on("mouseover", function(d) {  showTooltip("health_ed_plot", d.data); })
+			// .on("mouseout", hideTooltip);
 
 		var countries = svg.selectAll(".country")
 			.data(data)

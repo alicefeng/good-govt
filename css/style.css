@@ -106,6 +106,12 @@ div.chart {
     left: 425px;
 }
 
+.cells path {
+    fill: none;
+    /*stroke: #d2d2d2;*/
+    pointer-events: all;
+}
+
 .metricLabel {
     font-size: 14px;
 }
