@@ -177,8 +177,8 @@ function showTooltip(chartID, d) {
 		d3.select("#health_ed_plot .tooltip").classed("hidden", false);
 	}
 	else if(chartID === "stable_system") {
-		d3.select(".stable_system.tooltip p.country_name").text(d.country_name);
-		d3.select(".stable_system.tooltip").classed("hidden", false);
+		d3.selectAll(".stable_system.tooltip p.country_name").text(d.country_name);
+		d3.selectAll(".stable_system.tooltip").classed("hidden", false);
 		d3.selectAll("#stable_system1 .country").style("opacity", 0.5);
 		d3.selectAll("#stable_system2 .country").style("opacity", 0.5);
 		d3.selectAll("#stable_system1 .country." + slugifyName(d.country_name)).style("opacity", 1);
@@ -188,7 +188,7 @@ function showTooltip(chartID, d) {
 
 function hideTooltip() {
 	d3.select("#health_ed_plot .tooltip").classed("hidden", true);
-	d3.select(".stable_system.tooltip").classed("hidden", true);
+	d3.selectAll(".stable_system.tooltip").classed("hidden", true);
 	d3.selectAll("#stable_system1 .country").style("opacity", 1);
 	d3.selectAll("#stable_system2 .country").style("opacity", 1);
 }
