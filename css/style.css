@@ -64,8 +64,18 @@ section.top_20_countries {
     display: inline-block;
 }
 
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 div.rankings_container {
     display: inline-block;
+    margin-top: 15px;
 }
 
 div.rankings {
