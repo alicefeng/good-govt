@@ -1,15 +1,16 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 300;
     color: #555;
-    line-height: 1.5;
+    line-height: 1.6;
     padding: 4em 1em;
     margin: 0px;
 }
 
 text {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 main {
@@ -23,21 +24,36 @@ h1, h2, h3, h4, h5, h6, strong {
 }
 
 h1 {
-    margin-top: 1em;
+    margin: 1rem 0;
     padding-top: 1em;
-    font-size: 2.5em;
+    font-size: 2em;
     font-weight: 300;
 }
 
 h2 {
+    font-size: 1.44rem;
     font-weight: 400;
-    margin-bottom: 50px;
+    margin: 3em 0 1em 0;
+}
+
+.top_20_countries h2 {
+    margin-bottom: 0;
 }
 
 h4 {
+    font-size: 1rem;
     font-weight: 500;
     min-height: 3rem;
     margin-bottom: 0;
+    margin-top: 2em;
+}
+
+p.intro {
+    max-width: 800px;
+}
+
+.subtitle {
+    margin-top: 0.3em;
 }
 
 section {
@@ -45,6 +61,10 @@ section {
 }
 
 section.top_20_countries {
+    display: inline-block;
+}
+
+div.rankings_container {
     display: inline-block;
 }
 
@@ -85,15 +105,33 @@ li::before {
     background-color: #ffe5cc;
 }
 
+.transitionQ {
+    /*clear: both;*/
+    margin-top: 4em;
+}
+
 div.chart {
-    margin-bottom: 40px;
+    /*margin-bottom: 30px;*/
+}
+
+div.legend {
+    margin-top: 2em;
+}
+
+.legend svg {
+    vertical-align: bottom;
+}
+
+.legend circle {
+    fill: #ffe5cc;
 }
 
 #health_ed_plot {
     position: relative;
     height: 650px;
     width: 600px;
-    margin-left: 15%;
+    margin-left: 10vw;
+    margin-top: 8vh;
 }
 
 .label {
@@ -124,7 +162,7 @@ div.chart {
 
 .health_ed_plot.tooltip {
     position: absolute;
-    top: 140px;
+    top: 130px;
     right: 0;
     box-sizing: border-box;
     width: 200px;
@@ -145,8 +183,21 @@ div.chart {
     visibility: hidden;
 }
 
+.stable_system.tooltip {
+    margin: 20px 0;
+}
+
 .stable_system.tooltip p.country_name {
     text-align: center;
+    padding: 0 125px 0 70px;
+}
+
+#suns {
+    margin: 3rem 0;
+}
+
+svg.countrySun {
+    margin-right: 20px;
 }
 
 .countrySun text.countryName {
@@ -155,10 +206,16 @@ div.chart {
 }
 
 .sun.center {
-    stroke-width: 3;
+    stroke-width: 2px;
     fill: #fff;
 }
 
 .ray {
-    stroke-width: 3;
+    stroke-width: 2px;
+}
+
+.sun.gridline {
+    stroke: #fff;
+    fill: none;
+    stroke-width: 2px;
 }

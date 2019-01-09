@@ -1,5 +1,5 @@
 (function() {
-	var margin = {top: 15, right: 15, bottom: 15, left: 15},
+	var margin = {top: 20, right: 15, bottom: 15, left: 15},
 		width = 120,
 		height = 120,
 		r = 8;
@@ -40,10 +40,10 @@
 			.append("svg")
 			.attr("class", "countrySun")
 			.attr("width", width)
-			.attr("height", height);
+			.attr("height", height + margin["top"] + margin["bottom"]);
 
 		var suns = svg.append("g")
-			.attr("transform", "translate(0, 10)");
+			.attr("transform", "translate(0," + margin["top"] + ")");
 
 		suns.selectAll(".ray")
 			.data(function(d) { return d.values; })
@@ -68,9 +68,7 @@
 			.attr("class", "sun gridline")
 			.attr("cx", width / 2)
 			.attr("cy", height / 2)
-			.attr("r", length(25))
-			.style("stroke", "#fff")
-			.style("fill", "none");
+			.attr("r", length(25));
 
 		suns.append("circle")
 			.attr("class", "sun gridline")

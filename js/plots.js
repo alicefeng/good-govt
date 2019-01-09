@@ -8,7 +8,7 @@
 	var edScale = d3.scaleLinear().range([0, width]);
 	var healthScale = d3.scaleLinear().range([height, 0]);
 
-	var beeMargin = {top: 20, right: 65, bottom: 20, left: 120},
+	var beeMargin = {top: 20, right: 70, bottom: 20, left: 120},
 		beeWidth = 700,
 		beeHeight = 450;
 
