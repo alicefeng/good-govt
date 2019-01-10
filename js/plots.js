@@ -1,7 +1,7 @@
 (function() {
 	var COMMAFMT = d3.format(",.0f");
 
-	var margin = {top: 50, right: 20, bottom: 20, left: 40},
+	var margin = {top: 50, right: 20, bottom: 20, left: 45},
 		width = 450,
 		height = 450;
 
@@ -17,7 +17,7 @@
 	var wbScale = d3.scaleLinear().domain([-3, 2.5]).range([beeHeight, 0]);
 	var heritageScale = d3.scaleLinear().domain([0, 100]).range([beeHeight, 0]);
 
-	var colorScale = d3.scaleOrdinal().domain([0, 1, 2]).range(["#d2d2d2", "#d2d2d2", "#ffe5cc"]);
+	var colorScale = d3.scaleOrdinal().domain([0, 1, 2]).range(["#3bb0fc", "#3bb0fc", "#f2d388"]);
 
 	var wbVars = ["Political stability", "Government effectiveness", "Regulatory quality", "Rule of law", "Control of corruption"];
 	var heritageVars = ["Judicial effectiveness", "Government integrity", "Property rights", "Overall economic freedom", "Financial freedom"];
@@ -85,7 +85,7 @@
 			.append("text")
 			.attr("x", width)
 			.attr("y", -5)
-			.style("fill", "#000")
+			.style("fill", "#fff")
 			.attr("text-anchor", "end")
 			.text("Education expenditure per person (USD per capita)");
 
@@ -97,7 +97,7 @@
 			.attr("y", -5)
 			.attr("transform", "rotate(90)")
 			.attr("text-anchor", "start")
-			.attr("fill", "#000")
+			.attr("fill", "#fff")
 			.text("Health expenditure per person (current international $)");
 
 		// add voronoi around each circle to make it easier to mouseover
@@ -141,22 +141,18 @@
 			.attr("class", "metricLabel")
 			.attr("x", function(d) { return systemMetricsScale(d); })
 			.attr("y", -5)
-			.style("fill", "#000")
-			.attr("text-anchor", "middle")
 			.text(function(d) { return d; });
 
 		svg.append("text")
 			.attr("class", "scaleLabel")
 			.attr("x", -beeMargin["left"])
 			.attr("y", 60)
-			.attr("fill", "#000")
 			.text("Better");
 
 		svg.append("text")
 			.attr("class", "scaleLabel")
 			.attr("x", -beeMargin["left"])
 			.attr("y", height - 30)
-			.attr("fill", "#000")
 			.text("Worse");
 
 		var simulation = d3.forceSimulation(data)
@@ -213,8 +209,8 @@
 		else if(chartID === "stable_system") {
 			d3.selectAll(".stable_system.tooltip p.country_name").text(d.country_name);
 			d3.selectAll(".stable_system.tooltip").classed("hidden", false);
-			d3.selectAll("#stable_system1 .country").style("opacity", 0.5);
-			d3.selectAll("#stable_system2 .country").style("opacity", 0.5);
+			d3.selectAll("#stable_system1 .country").style("opacity", 0.3);
+			d3.selectAll("#stable_system2 .country").style("opacity", 0.3);
 			d3.selectAll("#stable_system1 .country." + slugifyName(d.country_name)).style("opacity", 1);
 			d3.selectAll("#stable_system2 .country." + slugifyName(d.country_name)).style("opacity", 1);
 		}

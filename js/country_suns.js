@@ -12,8 +12,7 @@
 
 	var length = d3.scaleLinear().domain([0, 100]).range([r, width/2 - margin["top"]]);
 	var rotationDegree = d3.scalePoint().domain(Object.keys(vars)).range([0, 2*Math.PI - Math.PI/6]);
-// console.log(rotationDegree.domain(), rotationDegree.range());
-	var colorScale = d3.scaleOrdinal().domain([0, 1, 2]).range(["#d2d2d2", "#d2d2d2", "#ffe5cc"]);
+	var colorScale = d3.scaleOrdinal().domain([0, 1, 2]).range(["#5cbdfd", "#5cbdfd", "#f2d388"]);
 
 
 	d3.csv("data/percentiles.csv", function(d) {
@@ -74,17 +73,13 @@
 			.attr("class", "sun gridline")
 			.attr("cx", width / 2)
 			.attr("cy", height / 2)
-			.attr("r", length(50))
-			.style("stroke", "#fff")
-			.style("fill", "none");
+			.attr("r", length(50));
 
 		suns.append("circle")
 			.attr("class", "sun gridline")
 			.attr("cx", width / 2)
 			.attr("cy", height / 2)
-			.attr("r", length(75))
-			.style("stroke", "#fff")
-			.style("fill", "none");
+			.attr("r", length(75));
 
 		svg.append("text")
 			.attr("class", "countryName")

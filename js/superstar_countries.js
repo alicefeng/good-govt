@@ -8,6 +8,7 @@ function highlightCountry(name) {
 
 	var nameSlug = slugifyName(name);
 	d3.selectAll("li.country." + nameSlug).classed("highlighted", true);
+	d3.selectAll("li.country." + nameSlug).classed("faded", false);
 }
 
 function removeHighlight() {

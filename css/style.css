@@ -2,8 +2,9 @@ body {
     /*font-family: 'Roboto', sans-serif;*/
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    font-weight: 300;
-    color: #555;
+    font-weight: 400;
+    color: #fff;
+    background-color: #02558b;
     line-height: 1.6;
     padding: 4em 1em;
     margin: 0px;
@@ -20,19 +21,20 @@ main {
 }
 
 h1, h2, h3, h4, h5, h6, strong {
-    color: #333;
+    color: #fff;
+    /*font-weight: 600;*/
 }
 
 h1 {
     margin: 1rem 0;
     padding-top: 1em;
-    font-size: 2em;
-    font-weight: 300;
+    font-size: 2.25em;
+    font-weight: 400;
 }
 
 h2 {
     font-size: 1.44rem;
-    font-weight: 400;
+    /*font-weight: 400;*/
     margin: 3em 0 1em 0;
 }
 
@@ -42,7 +44,7 @@ h2 {
 
 h4 {
     font-size: 1rem;
-    font-weight: 500;
+    /*font-weight: 500;*/
     min-height: 3rem;
     margin-bottom: 0;
     margin-top: 2em;
@@ -66,7 +68,7 @@ section.top_20_countries {
 
 a {
     text-decoration: none;
-    color: #333;
+    color: #fff;
 }
 
 a:hover {
@@ -91,49 +93,50 @@ ol.country_list {
 }
 
 li.country {
-    color: #ccc;
-    background-color: #fff;
+    /*color: #ccc;*/
+    opacity: 0.4;
+    padding-left: 2px;
     pointer-events: none;
     /*list-style-position: inside;*/
 }
 
 li.superstar.country {
-    color: #555;
+    opacity: 1;
     pointer-events: all;
 }
 
 li.superstar.country.faded {
-    color: #ccc;
+    opacity: 0.4;
 }
 
 li.superstar.country.highlighted {
-    color: #555;
-    background-color: #ffe5cc;
+    color: #333;
+    background-color: #f2d388;
 }
 
-li::before {
-    background-color: #ffe5cc;
-}
+/*li::before {
+    background-color: #dcae1d;
+}*/
 
 .transitionQ {
     /*clear: both;*/
     margin-top: 4em;
 }
 
-div.chart {
-    /*margin-bottom: 30px;*/
+/*div.chart {
+    margin-bottom: 30px;
 }
-
-div.legend {
+*/
+/*div.legend {
     margin-top: 2em;
 }
-
+*/
 .legend svg {
     vertical-align: bottom;
 }
 
 .legend circle {
-    fill: #ffe5cc;
+    fill: #f2d388;
 }
 
 #health_ed_plot {
@@ -144,11 +147,22 @@ div.legend {
     margin-top: 8vh;
 }
 
+.axis path,
+.axis line {
+    stroke: #fff;
+}
+
+.axis text {
+    fill: #fff;
+    font-size: 12px;
+}
+
 .label {
     width: 150px;
     position: absolute;
     font-size: 14px;
     top: 10px;
+    line-height: 1.5;
 }
 
 .ed.label {
@@ -163,9 +177,12 @@ div.legend {
 
 .metricLabel {
     font-size: 14px;
+    fill: #fff;
+    text-anchor: middle;
 }
 
 .scaleLabel {
+    fill: #fff;
     font-size: 12px;
     font-style: italic;
 }
@@ -177,9 +194,9 @@ div.legend {
     box-sizing: border-box;
     width: 200px;
     padding: 10px;
-    border: 1px solid #d2d2d2;
+    border: 2px solid #d2d2d2;
     font-size: 14px;
-    background-color: #fff;
+    background-color: #025f9c;
     z-index: 10;
 }
 
@@ -187,6 +204,14 @@ div.legend {
     font-weight: 400;
     font-size: 1.25rem;
     margin: 10px 0;
+}
+
+.tooltip hr {
+    border: 1px solid white;
+}
+
+.tooltip p {
+    line-height: 1.5;
 }
 
 .hidden {
@@ -212,12 +237,12 @@ svg.countrySun {
 
 .countrySun text.countryName {
     font-size: 14px;
-    fill: #000;
+    fill: #fff;
 }
 
 .sun.center {
     stroke-width: 2px;
-    fill: #fff;
+    fill: #02558b;
 }
 
 .ray {
@@ -225,7 +250,7 @@ svg.countrySun {
 }
 
 .sun.gridline {
-    stroke: #fff;
+    stroke: #02558b;
     fill: none;
     stroke-width: 2px;
 }
