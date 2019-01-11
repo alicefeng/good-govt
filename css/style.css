@@ -254,3 +254,29 @@ svg.countrySun {
     fill: none;
     stroke-width: 2px;
 }
+
+#sun_legend .legendText {
+    fill: #fff;
+    font-size: 14px;
+    text-anchor: middle;
+}
+
+.sunLegend .legend_explanation {
+    display: inline-block;
+    height: 200px;
+    columns: 2;
+    margin-left: 30px;
+}
+
+.sunLegend .legend_explanation ol {
+    margin: 0;
+}
+
+.sunLegend li {
+    font-size: 14px;
+}
+
+.sunLegend p {
+    font-size: 14px;
+    padding-left: 260px;
+}
