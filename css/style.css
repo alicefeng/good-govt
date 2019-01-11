@@ -22,18 +22,18 @@ main {
 
 h1, h2, h3, h4, h5, h6, strong {
     color: #fff;
-    /*font-weight: 600;*/
+    font-weight: 400;
 }
 
 h1 {
     margin: 1rem 0;
     padding-top: 1em;
-    font-size: 2.25em;
-    font-weight: 400;
+    font-size: 2.5em;
+    /*font-weight: 400;*/
 }
 
 h2 {
-    font-size: 1.44rem;
+    font-size: 1.73rem;
     /*font-weight: 400;*/
     margin: 3em 0 1em 0;
 }

@@ -1,7 +1,7 @@
 (function() {
-	var margin = {top: 20, right: 15, bottom: 15, left: 15},
-		width = 120,
-		height = 120,
+	var margin = {top: 20, right: 10, bottom: 10, left: 10},
+		width = 140,
+		height = 140,
 		r = 8;
 
 	var vars = {health_expend_ntile: "Health expenditure", edu_expend_ntile: "Education expenditure",

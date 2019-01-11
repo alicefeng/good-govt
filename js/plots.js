@@ -102,7 +102,7 @@
 
 		// add voronoi around each circle to make it easier to mouseover
 		var cell = svg.append("g")
-			.attr("class", "cells country")
+			.attr("class", "cells")
 			.selectAll("g")
 			.data(d3.voronoi()
 				.extent([[0, 0], [width, height]])
@@ -113,6 +113,7 @@
 			.append("g");
 
 		cell.append("circle")
+			.attr("class", function(d) { return "country " + slugifyName(d.data.country_name); })
 			.attr("r", 5)
 			.attr("cx", function(d) { return edScale(d.data.edu_expenditure_per_person); })
 			.attr("cy", function(d) { return healthScale(d.data.health_expenditure_per_person); })
@@ -205,6 +206,8 @@
 			d3.select("#health_ed_plot .tooltip .health_spending").text(COMMAFMT(d.health_expenditure_per_person));
 			d3.select("#health_ed_plot .tooltip .edu_spending").text(COMMAFMT(d.edu_expenditure_per_person));
 			d3.select("#health_ed_plot .tooltip").classed("hidden", false);
+			d3.selectAll("#health_ed_plot .country").style("opacity", 0.3);
+			d3.selectAll("#health_ed_plot .country." + slugifyName(d.country_name)).style("opacity", 1);
 		}
 		else if(chartID === "stable_system") {
 			d3.selectAll(".stable_system.tooltip p.country_name").text(d.country_name);
@@ -218,6 +221,7 @@
 
 	function hideTooltip() {
 		d3.select("#health_ed_plot .tooltip").classed("hidden", true);
+		d3.selectAll("#health_ed_plot .country").style("opacity", 1);
 		d3.selectAll(".stable_system.tooltip").classed("hidden", true);
 		d3.selectAll("#stable_system1 .country").style("opacity", 1);
 		d3.selectAll("#stable_system2 .country").style("opacity", 1);
