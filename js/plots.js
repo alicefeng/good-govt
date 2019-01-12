@@ -87,7 +87,7 @@
 			.attr("y", -5)
 			.style("fill", "#fff")
 			.attr("text-anchor", "end")
-			.text("Education expenditure per person (USD per capita)");
+			.text("Education expenditure per person (USD)");
 
 		svg.append("g")
 			.attr("class", "y axis")

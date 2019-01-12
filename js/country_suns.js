@@ -69,8 +69,10 @@
 			.enter()
 			.append("text")
 			.attr("class", "legendText")
-			.attr("x", function(d, i) { return (i >= 1 && i <= 5) ? 95 * Math.cos(rotationDegree(d.metric)) + 100 : 90 * Math.cos(rotationDegree(d.metric)) + 100; })
-			.attr("y", function(d, i) { return (i >= 1 && i <= 5) ? 95 * Math.sin(rotationDegree(d.metric)) + 100 : 90 * Math.sin(rotationDegree(d.metric)) + 100; })
+			.attr("x", function(d, i) { return (i >= 5 && i <= 9) ? 95 * Math.cos(rotationDegree(d.metric) - Math.PI/2) + 100 : 93 * Math.cos(rotationDegree(d.metric) - Math.PI/2) + 100; })
+			.attr("y", function(d, i) { return (i >= 5 && i <= 9) ? 95 * Math.sin(rotationDegree(d.metric) - Math.PI/2) + 100 : 93 * Math.sin(rotationDegree(d.metric) - Math.PI/2) + 100; })
+			// .attr("x", function(d, i) { return 95 * Math.cos(rotationDegree(d.metric) - Math.PI/2) + 100; })
+			// .attr("y", function(d, i) { return 95 * Math.sin(rotationDegree(d.metric) - Math.PI/2) + 100; })
 			.text(function(d, i) { return i + 1; });
 
 		svg.append("circle")
@@ -119,8 +121,8 @@
 			.attr("class", "sun ray")
 			.attr("x1", width / 2)
 			.attr("y1", height / 2)
-			.attr("x2", function(d) { return length(d.percentile) * Math.cos(rotationDegree(d.metric)) + (width/2); })
-			.attr("y2", function(d) { return length(d.percentile) * Math.sin(rotationDegree(d.metric)) + (height/2); })
+			.attr("x2", function(d) { return length(d.percentile) * Math.cos(rotationDegree(d.metric) - Math.PI/2) + (width/2); })
+			.attr("y2", function(d) { return length(d.percentile) * Math.sin(rotationDegree(d.metric) - Math.PI/2) + (height/2); })
 			.style("stroke", function(d) { return colorScale(d.top_country); });
 
 		suns.append("circle")

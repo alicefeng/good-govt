@@ -44,7 +44,7 @@ h2 {
 
 h4 {
     font-size: 1rem;
-    /*font-weight: 500;*/
+    font-weight: 600;
     min-height: 3rem;
     margin-bottom: 0;
     margin-top: 2em;
@@ -69,6 +69,7 @@ section.top_20_countries {
 a {
     text-decoration: none;
     color: #fff;
+    font-weight: 600;
 }
 
 a:hover {
@@ -255,11 +256,9 @@ svg.countrySun {
     stroke-width: 2px;
 }
 
-#sun_legend .legendText {
-    fill: #fff;
-    font-size: 14px;
-    text-anchor: middle;
-}
+/*.sunLegend {
+    margin-top: 40px;
+}*/
 
 .sunLegend .legend_explanation {
     display: inline-block;
@@ -278,5 +277,21 @@ svg.countrySun {
 
 .sunLegend p {
     font-size: 14px;
-    padding-left: 260px;
+    margin: 0;
+    /*padding-left: 260px;*/
+}
+
+.sunLegend p:first-of-type {
+    margin-top: 20px;
+}
+
+/*#sun_legend {
+    margin-top: 25px;
+}*/
+
+#sun_legend .legendText {
+    fill: #fff;
+    font-size: 14px;
+    text-anchor: middle;
+    dominant-baseline: middle;
 }
