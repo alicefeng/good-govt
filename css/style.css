@@ -14,7 +14,8 @@ text {
     font-family: 'Open Sans', sans-serif;
 }
 
-main {
+main,
+footer {
     width: 60vw;
     min-width: 800px;
     margin: 0 auto;
@@ -294,4 +295,8 @@ svg.countrySun {
     font-size: 14px;
     text-anchor: middle;
     dominant-baseline: middle;
+}
+
+footer {
+    font-size: 0.8rem;
 }
