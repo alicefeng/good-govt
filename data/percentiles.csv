@@ -1,0 +1,2341 @@
+country_name,top_country,metric,percentile
+Afghanistan,0,health_expend_ntile,21
+Albania,1,health_expend_ntile,51
+Algeria,0,health_expend_ntile,61
+Andorra,0,health_expend_ntile,98
+Angola,0,health_expend_ntile,23
+Antigua & Barbuda,0,health_expend_ntile,65
+Argentina,1,health_expend_ntile,69
+Armenia,0,health_expend_ntile,55
+Australia,2,health_expend_ntile,92
+Austria,2,health_expend_ntile,95
+Azerbaijan,0,health_expend_ntile,66
+Bahamas,0,health_expend_ntile,75
+Bahrain,0,health_expend_ntile,82
+Bangladesh,1,health_expend_ntile,7
+Barbados,0,health_expend_ntile,67
+Belarus,0,health_expend_ntile,62
+Belgium,2,health_expend_ntile,94
+Belize,0,health_expend_ntile,44
+Benin,0,health_expend_ntile,6
+Bhutan,0,health_expend_ntile,29
+Bolivia,0,health_expend_ntile,38
+Bosnia and Herzegovina,0,health_expend_ntile,64
+Botswana,0,health_expend_ntile,57
+Brazil,0,health_expend_ntile,69
+Brunei,0,health_expend_ntile,79
+Bulgaria,0,health_expend_ntile,72
+Burkina Faso,0,health_expend_ntile,7
+Burundi,0,health_expend_ntile,3
+Cabo Verde,0,health_expend_ntile,31
+Cambodia,0,health_expend_ntile,25
+Cameroon,0,health_expend_ntile,19
+Canada,2,health_expend_ntile,93
+Central African Republic,0,health_expend_ntile,1
+Chad,0,health_expend_ntile,10
+Chile,0,health_expend_ntile,78
+China,0,health_expend_ntile,50
+Colombia,1,health_expend_ntile,52
+Comoros,0,health_expend_ntile,13
+Congo (Dem. Rep.),0,health_expend_ntile,1
+Congo (Rep.),0,health_expend_ntile,23
+Costa Rica,2,health_expend_ntile,68
+Cote d'Ivoire,0,health_expend_ntile,22
+Croatia,0,health_expend_ntile,74
+Cuba,0,health_expend_ntile,NA
+Cyprus,0,health_expend_ntile,80
+Czech Republic,1,health_expend_ntile,82
+Denmark,2,health_expend_ntile,94
+Djibouti,0,health_expend_ntile,17
+Dominica,0,health_expend_ntile,46
+Dominican Republic,0,health_expend_ntile,55
+Ecuador,1,health_expend_ntile,58
+Egypt,0,health_expend_ntile,42
+El Salvador,1,health_expend_ntile,45
+Equatorial Guinea,0,health_expend_ntile,52
+Eritrea,0,health_expend_ntile,2
+Estonia,0,health_expend_ntile,77
+Eswatini,0,health_expend_ntile,NA
+Ethiopia,0,health_expend_ntile,4
+Fiji,0,health_expend_ntile,32
+Finland,2,health_expend_ntile,88
+France,1,health_expend_ntile,93
+Gabon,0,health_expend_ntile,41
+"Gambia, The",0,health_expend_ntile,NA
+Georgia,0,health_expend_ntile,49
+Germany,2,health_expend_ntile,97
+Ghana,0,health_expend_ntile,26
+Greece,0,health_expend_ntile,80
+Grenada,0,health_expend_ntile,48
+Guatemala,0,health_expend_ntile,38
+Guinea,0,health_expend_ntile,2
+Guinea-Bissau,0,health_expend_ntile,10
+Guyana,0,health_expend_ntile,33
+Haiti,0,health_expend_ntile,13
+Honduras,0,health_expend_ntile,34
+Hungary,0,health_expend_ntile,78
+Iceland,2,health_expend_ntile,91
+India,0,health_expend_ntile,26
+Indonesia,1,health_expend_ntile,35
+Iran,0,health_expend_ntile,67
+Iraq,0,health_expend_ntile,41
+Ireland,2,health_expend_ntile,97
+Israel,1,health_expend_ntile,84
+Italy,0,health_expend_ntile,86
+Jamaica,1,health_expend_ntile,43
+Japan,2,health_expend_ntile,92
+Jordan,0,health_expend_ntile,45
+Kazakhstan,0,health_expend_ntile,56
+Kenya,0,health_expend_ntile,19
+Kiribati,0,health_expend_ntile,18
+Korea (Dem. People's Rep.),0,health_expend_ntile,NA
+Korea (Rep.),0,health_expend_ntile,NA
+Kosovo,0,health_expend_ntile,NA
+Kuwait,0,health_expend_ntile,85
+Kyrgyzstan,0,health_expend_ntile,29
+Laos,0,health_expend_ntile,NA
+Latvia,0,health_expend_ntile,70
+Lebanon,0,health_expend_ntile,66
+Lesotho,0,health_expend_ntile,27
+Liberia,0,health_expend_ntile,14
+Libya,0,health_expend_ntile,NA
+Liechtenstein,1,health_expend_ntile,NA
+Lithuania,0,health_expend_ntile,76
+Luxembourg,2,health_expend_ntile,99
+Macedonia,0,health_expend_ntile,53
+Madagascar,0,health_expend_ntile,5
+Malawi,0,health_expend_ntile,11
+Malaysia,0,health_expend_ntile,61
+Maldives,0,health_expend_ntile,72
+Mali,0,health_expend_ntile,12
+Malta,0,health_expend_ntile,87
+Marshall Islands,0,health_expend_ntile,54
+Mauritania,0,health_expend_ntile,20
+Mauritius,0,health_expend_ntile,64
+Mexico,1,health_expend_ntile,60
+Micronesia,0,health_expend_ntile,39
+Moldova,0,health_expend_ntile,43
+Monaco,0,health_expend_ntile,87
+Mongolia,0,health_expend_ntile,40
+Montenegro,0,health_expend_ntile,57
+Morocco,0,health_expend_ntile,37
+Mozambique,0,health_expend_ntile,3
+Myanmar,0,health_expend_ntile,28
+Namibia,0,health_expend_ntile,56
+Nauru,0,health_expend_ntile,62
+Nepal,0,health_expend_ntile,17
+Netherlands,2,health_expend_ntile,96
+New Zealand,2,health_expend_ntile,88
+Nicaragua,1,health_expend_ntile,37
+Niger,0,health_expend_ntile,4
+Nigeria,0,health_expend_ntile,25
+Norway,2,health_expend_ntile,98
+Oman,0,health_expend_ntile,74
+Pakistan,0,health_expend_ntile,14
+Palau,0,health_expend_ntile,73
+Panama,1,health_expend_ntile,73
+Papua New Guinea,0,health_expend_ntile,9
+Paraguay,0,health_expend_ntile,50
+Peru,0,health_expend_ntile,47
+Philippines,1,health_expend_ntile,31
+Poland,0,health_expend_ntile,75
+Portugal,0,health_expend_ntile,83
+Qatar,0,health_expend_ntile,90
+Romania,0,health_expend_ntile,63
+Russia,0,health_expend_ntile,70
+Rwanda,0,health_expend_ntile,16
+Saint Kitts and Nevis,0,health_expend_ntile,71
+Saint Lucia,0,health_expend_ntile,49
+Saint Vincent and the Grenadines,0,health_expend_ntile,40
+Samoa,0,health_expend_ntile,34
+San Marino,0,health_expend_ntile,89
+Sao Tome and Principe,0,health_expend_ntile,30
+Saudi Arabia,0,health_expend_ntile,85
+Senegal,0,health_expend_ntile,9
+Serbia,0,health_expend_ntile,68
+Seychelles,0,health_expend_ntile,54
+Sierra Leone,0,health_expend_ntile,27
+Singapore,2,health_expend_ntile,90
+Slovakia,0,health_expend_ntile,79
+Slovenia,0,health_expend_ntile,84
+Solomon Islands,0,health_expend_ntile,20
+Somalia,0,health_expend_ntile,NA
+South Africa,0,health_expend_ntile,63
+South Sudan,0,health_expend_ntile,5
+Spain,1,health_expend_ntile,86
+Sri Lanka,0,health_expend_ntile,35
+Sudan,0,health_expend_ntile,28
+Suriname,0,health_expend_ntile,60
+Sweden,2,health_expend_ntile,96
+Switzerland,2,health_expend_ntile,99
+Syria,0,health_expend_ntile,NA
+Taiwan,0,health_expend_ntile,NA
+Tajikistan,0,health_expend_ntile,22
+Tanzania,0,health_expend_ntile,8
+Thailand,1,health_expend_ntile,47
+Timor-Leste,0,health_expend_ntile,15
+Togo,0,health_expend_ntile,8
+Tonga,0,health_expend_ntile,32
+Trinidad and Tobago,0,health_expend_ntile,81
+Tunisia,0,health_expend_ntile,51
+Turkey,0,health_expend_ntile,58
+Turkmenistan,0,health_expend_ntile,59
+Tuvalu,0,health_expend_ntile,44
+Uganda,0,health_expend_ntile,15
+Ukraine,0,health_expend_ntile,39
+United Arab Emirates,1,health_expend_ntile,81
+United Kingdom,2,health_expend_ntile,91
+United States,2,health_expend_ntile,100
+Uruguay,1,health_expend_ntile,76
+Uzbekistan,0,health_expend_ntile,36
+Vanuatu,1,health_expend_ntile,11
+Venezuela,0,health_expend_ntile,46
+Vietnam,1,health_expend_ntile,33
+Yemen,0,health_expend_ntile,16
+Zambia,0,health_expend_ntile,24
+Zimbabwe,0,health_expend_ntile,21
+Afghanistan,0,edu_expend_ntile,9
+Albania,1,edu_expend_ntile,NA
+Algeria,0,edu_expend_ntile,NA
+Andorra,0,edu_expend_ntile,NA
+Angola,0,edu_expend_ntile,NA
+Antigua & Barbuda,0,edu_expend_ntile,NA
+Argentina,1,edu_expend_ntile,61
+Armenia,0,edu_expend_ntile,30
+Australia,2,edu_expend_ntile,94
+Austria,2,edu_expend_ntile,88
+Azerbaijan,0,edu_expend_ntile,42
+Bahamas,0,edu_expend_ntile,NA
+Bahrain,0,edu_expend_ntile,60
+Bangladesh,1,edu_expend_ntile,NA
+Barbados,0,edu_expend_ntile,72
+Belarus,0,edu_expend_ntile,55
+Belgium,2,edu_expend_ntile,91
+Belize,0,edu_expend_ntile,49
+Benin,0,edu_expend_ntile,18
+Bhutan,0,edu_expend_ntile,35
+Bolivia,0,edu_expend_ntile,43
+Bosnia and Herzegovina,0,edu_expend_ntile,NA
+Botswana,0,edu_expend_ntile,NA
+Brazil,0,edu_expend_ntile,66
+Brunei,0,edu_expend_ntile,78
+Bulgaria,0,edu_expend_ntile,NA
+Burkina Faso,0,edu_expend_ntile,14
+Burundi,0,edu_expend_ntile,NA
+Cabo Verde,0,edu_expend_ntile,40
+Cambodia,0,edu_expend_ntile,6
+Cameroon,0,edu_expend_ntile,NA
+Canada,2,edu_expend_ntile,NA
+Central African Republic,0,edu_expend_ntile,NA
+Chad,0,edu_expend_ntile,NA
+Chile,0,edu_expend_ntile,64
+China,0,edu_expend_ntile,NA
+Colombia,1,edu_expend_ntile,51
+Comoros,0,edu_expend_ntile,19
+Congo (Dem. Rep.),0,edu_expend_ntile,NA
+Congo (Rep.),0,edu_expend_ntile,NA
+Costa Rica,2,edu_expend_ntile,67
+Cote d'Ivoire,0,edu_expend_ntile,25
+Croatia,0,edu_expend_ntile,NA
+Cuba,0,edu_expend_ntile,NA
+Cyprus,0,edu_expend_ntile,NA
+Czech Republic,1,edu_expend_ntile,NA
+Denmark,2,edu_expend_ntile,NA
+Djibouti,0,edu_expend_ntile,NA
+Dominica,0,edu_expend_ntile,NA
+Dominican Republic,0,edu_expend_ntile,NA
+Ecuador,1,edu_expend_ntile,NA
+Egypt,0,edu_expend_ntile,NA
+El Salvador,1,edu_expend_ntile,34
+Equatorial Guinea,0,edu_expend_ntile,NA
+Eritrea,0,edu_expend_ntile,NA
+Estonia,0,edu_expend_ntile,NA
+Eswatini,0,edu_expend_ntile,NA
+Ethiopia,0,edu_expend_ntile,NA
+Fiji,0,edu_expend_ntile,NA
+Finland,2,edu_expend_ntile,95
+France,1,edu_expend_ntile,84
+Gabon,0,edu_expend_ntile,NA
+"Gambia, The",0,edu_expend_ntile,NA
+Georgia,0,edu_expend_ntile,NA
+Germany,2,edu_expend_ntile,83
+Ghana,0,edu_expend_ntile,29
+Greece,0,edu_expend_ntile,NA
+Grenada,0,edu_expend_ntile,NA
+Guatemala,0,edu_expend_ntile,32
+Guinea,0,edu_expend_ntile,4
+Guinea-Bissau,0,edu_expend_ntile,NA
+Guyana,0,edu_expend_ntile,NA
+Haiti,0,edu_expend_ntile,NA
+Honduras,0,edu_expend_ntile,NA
+Hungary,0,edu_expend_ntile,63
+Iceland,2,edu_expend_ntile,NA
+India,0,edu_expend_ntile,NA
+Indonesia,1,edu_expend_ntile,33
+Iran,0,edu_expend_ntile,36
+Iraq,0,edu_expend_ntile,NA
+Ireland,2,edu_expend_ntile,NA
+Israel,1,edu_expend_ntile,82
+Italy,0,edu_expend_ntile,80
+Jamaica,1,edu_expend_ntile,46
+Japan,2,edu_expend_ntile,76
+Jordan,0,edu_expend_ntile,NA
+Kazakhstan,0,edu_expend_ntile,NA
+Kenya,0,edu_expend_ntile,22
+Kiribati,0,edu_expend_ntile,NA
+Korea (Dem. People's Rep.),0,edu_expend_ntile,NA
+Korea (Rep.),0,edu_expend_ntile,79
+Kosovo,0,edu_expend_ntile,NA
+Kuwait,0,edu_expend_ntile,NA
+Kyrgyzstan,0,edu_expend_ntile,23
+Laos,0,edu_expend_ntile,20
+Latvia,0,edu_expend_ntile,71
+Lebanon,0,edu_expend_ntile,NA
+Lesotho,0,edu_expend_ntile,NA
+Liberia,0,edu_expend_ntile,NA
+Libya,0,edu_expend_ntile,NA
+Liechtenstein,1,edu_expend_ntile,NA
+Lithuania,0,edu_expend_ntile,68
+Luxembourg,2,edu_expend_ntile,98
+Macedonia,0,edu_expend_ntile,NA
+Madagascar,0,edu_expend_ntile,NA
+Malawi,0,edu_expend_ntile,3
+Malaysia,0,edu_expend_ntile,59
+Maldives,0,edu_expend_ntile,50
+Mali,0,edu_expend_ntile,13
+Malta,0,edu_expend_ntile,81
+Marshall Islands,0,edu_expend_ntile,NA
+Mauritania,0,edu_expend_ntile,NA
+Mauritius,0,edu_expend_ntile,56
+Mexico,1,edu_expend_ntile,58
+Micronesia,0,edu_expend_ntile,NA
+Moldova,0,edu_expend_ntile,37
+Monaco,0,edu_expend_ntile,NA
+Mongolia,0,edu_expend_ntile,41
+Montenegro,0,edu_expend_ntile,NA
+Morocco,0,edu_expend_ntile,NA
+Mozambique,0,edu_expend_ntile,NA
+Myanmar,0,edu_expend_ntile,NA
+Namibia,0,edu_expend_ntile,NA
+Nauru,0,edu_expend_ntile,NA
+Nepal,0,edu_expend_ntile,10
+Netherlands,2,edu_expend_ntile,90
+New Zealand,2,edu_expend_ntile,89
+Nicaragua,1,edu_expend_ntile,NA
+Niger,0,edu_expend_ntile,11
+Nigeria,0,edu_expend_ntile,NA
+Norway,2,edu_expend_ntile,99
+Oman,0,edu_expend_ntile,NA
+Pakistan,0,edu_expend_ntile,17
+Palau,0,edu_expend_ntile,NA
+Panama,1,edu_expend_ntile,NA
+Papua New Guinea,0,edu_expend_ntile,NA
+Paraguay,0,edu_expend_ntile,NA
+Peru,0,edu_expend_ntile,44
+Philippines,1,edu_expend_ntile,NA
+Poland,0,edu_expend_ntile,65
+Portugal,0,edu_expend_ntile,73
+Qatar,0,edu_expend_ntile,92
+Romania,0,edu_expend_ntile,48
+Russia,0,edu_expend_ntile,NA
+Rwanda,0,edu_expend_ntile,NA
+Saint Kitts and Nevis,0,edu_expend_ntile,NA
+Saint Lucia,0,edu_expend_ntile,52
+Saint Vincent and the Grenadines,0,edu_expend_ntile,NA
+Samoa,0,edu_expend_ntile,NA
+San Marino,0,edu_expend_ntile,NA
+Sao Tome and Principe,0,edu_expend_ntile,21
+Saudi Arabia,0,edu_expend_ntile,NA
+Senegal,0,edu_expend_ntile,28
+Serbia,0,edu_expend_ntile,45
+Seychelles,0,edu_expend_ntile,NA
+Sierra Leone,0,edu_expend_ntile,5
+Singapore,2,edu_expend_ntile,NA
+Slovakia,0,edu_expend_ntile,69
+Slovenia,0,edu_expend_ntile,75
+Solomon Islands,0,edu_expend_ntile,NA
+Somalia,0,edu_expend_ntile,NA
+South Africa,0,edu_expend_ntile,53
+South Sudan,0,edu_expend_ntile,7
+Spain,1,edu_expend_ntile,74
+Sri Lanka,0,edu_expend_ntile,26
+Sudan,0,edu_expend_ntile,NA
+Suriname,0,edu_expend_ntile,NA
+Sweden,2,edu_expend_ntile,97
+Switzerland,2,edu_expend_ntile,96
+Syria,0,edu_expend_ntile,NA
+Taiwan,0,edu_expend_ntile,NA
+Tajikistan,0,edu_expend_ntile,NA
+Tanzania,0,edu_expend_ntile,15
+Thailand,1,edu_expend_ntile,NA
+Timor-Leste,0,edu_expend_ntile,NA
+Togo,0,edu_expend_ntile,12
+Tonga,0,edu_expend_ntile,NA
+Trinidad and Tobago,0,edu_expend_ntile,NA
+Tunisia,0,edu_expend_ntile,NA
+Turkey,0,edu_expend_ntile,57
+Turkmenistan,0,edu_expend_ntile,NA
+Tuvalu,0,edu_expend_ntile,NA
+Uganda,0,edu_expend_ntile,2
+Ukraine,0,edu_expend_ntile,38
+United Arab Emirates,1,edu_expend_ntile,NA
+United Kingdom,2,edu_expend_ntile,86
+United States,2,edu_expend_ntile,87
+Uruguay,1,edu_expend_ntile,NA
+Uzbekistan,0,edu_expend_ntile,NA
+Vanuatu,1,edu_expend_ntile,1
+Venezuela,0,edu_expend_ntile,NA
+Vietnam,1,edu_expend_ntile,NA
+Yemen,0,edu_expend_ntile,NA
+Zambia,0,edu_expend_ntile,NA
+Zimbabwe,0,edu_expend_ntile,27
+Afghanistan,0,poli_stab_ntile,1
+Albania,1,poli_stab_ntile,66
+Algeria,0,poli_stab_ntile,16
+Andorra,0,poli_stab_ntile,98
+Angola,0,poli_stab_ntile,37
+Antigua & Barbuda,0,poli_stab_ntile,76
+Argentina,1,poli_stab_ntile,57
+Armenia,0,poli_stab_ntile,22
+Australia,2,poli_stab_ntile,81
+Austria,2,poli_stab_ntile,89
+Azerbaijan,0,poli_stab_ntile,20
+Bahamas,0,poli_stab_ntile,86
+Bahrain,0,poli_stab_ntile,16
+Bangladesh,1,poli_stab_ntile,11
+Barbados,0,poli_stab_ntile,85
+Belarus,0,poli_stab_ntile,49
+Belgium,2,poli_stab_ntile,67
+Belize,0,poli_stab_ntile,52
+Benin,0,poli_stab_ntile,52
+Bhutan,0,poli_stab_ntile,92
+Bolivia,0,poli_stab_ntile,36
+Bosnia and Herzegovina,0,poli_stab_ntile,34
+Botswana,0,poli_stab_ntile,88
+Brazil,0,poli_stab_ntile,33
+Brunei,0,poli_stab_ntile,94
+Bulgaria,0,poli_stab_ntile,65
+Burkina Faso,0,poli_stab_ntile,17
+Burundi,0,poli_stab_ntile,6
+Cabo Verde,0,poli_stab_ntile,82
+Cambodia,0,poli_stab_ntile,57
+Cameroon,0,poli_stab_ntile,13
+Canada,2,poli_stab_ntile,91
+Central African Republic,0,poli_stab_ntile,6
+Chad,0,poli_stab_ntile,10
+Chile,0,poli_stab_ntile,65
+China,0,poli_stab_ntile,39
+Colombia,1,poli_stab_ntile,19
+Comoros,0,poli_stab_ntile,50
+Congo (Dem. Rep.),0,poli_stab_ntile,5
+Congo (Rep.),0,poli_stab_ntile,30
+Costa Rica,2,poli_stab_ntile,68
+Cote d'Ivoire,0,poli_stab_ntile,13
+Croatia,0,poli_stab_ntile,75
+Cuba,0,poli_stab_ntile,74
+Cyprus,0,poli_stab_ntile,71
+Czech Republic,1,poli_stab_ntile,87
+Denmark,2,poli_stab_ntile,79
+Djibouti,0,poli_stab_ntile,22
+Dominica,0,poli_stab_ntile,89
+Dominican Republic,0,poli_stab_ntile,56
+Ecuador,1,poli_stab_ntile,45
+Egypt,0,poli_stab_ntile,10
+El Salvador,1,poli_stab_ntile,40
+Equatorial Guinea,0,poli_stab_ntile,43
+Eritrea,0,poli_stab_ntile,24
+Estonia,0,poli_stab_ntile,73
+Eswatini,0,poli_stab_ntile,36
+Ethiopia,0,poli_stab_ntile,9
+Fiji,0,poli_stab_ntile,77
+Finland,2,poli_stab_ntile,90
+France,1,poli_stab_ntile,58
+Gabon,0,poli_stab_ntile,45
+"Gambia, The",0,poli_stab_ntile,42
+Georgia,0,poli_stab_ntile,35
+Germany,2,poli_stab_ntile,70
+Ghana,0,poli_stab_ntile,53
+Greece,0,poli_stab_ntile,44
+Grenada,0,poli_stab_ntile,88
+Guatemala,0,poli_stab_ntile,29
+Guinea,0,poli_stab_ntile,27
+Guinea-Bissau,0,poli_stab_ntile,27
+Guyana,0,poli_stab_ntile,47
+Haiti,0,poli_stab_ntile,23
+Honduras,0,poli_stab_ntile,30
+Hungary,0,poli_stab_ntile,78
+Iceland,2,poli_stab_ntile,97
+India,0,poli_stab_ntile,18
+Indonesia,1,poli_stab_ntile,31
+Iran,0,poli_stab_ntile,17
+Iraq,0,poli_stab_ntile,3
+Ireland,2,poli_stab_ntile,87
+Israel,1,poli_stab_ntile,18
+Italy,0,poli_stab_ntile,60
+Jamaica,1,poli_stab_ntile,61
+Japan,2,poli_stab_ntile,92
+Jordan,0,poli_stab_ntile,31
+Kazakhstan,0,poli_stab_ntile,49
+Kenya,0,poli_stab_ntile,14
+Kiribati,0,poli_stab_ntile,82
+Korea (Dem. People's Rep.),0,poli_stab_ntile,32
+Korea (Rep.),0,poli_stab_ntile,63
+Kosovo,0,poli_stab_ntile,43
+Kuwait,0,poli_stab_ntile,47
+Kyrgyzstan,0,poli_stab_ntile,32
+Laos,0,poli_stab_ntile,67
+Latvia,0,poli_stab_ntile,68
+Lebanon,0,poli_stab_ntile,9
+Lesotho,0,poli_stab_ntile,41
+Liberia,0,poli_stab_ntile,33
+Libya,0,poli_stab_ntile,4
+Liechtenstein,1,poli_stab_ntile,98
+Lithuania,0,poli_stab_ntile,76
+Luxembourg,2,poli_stab_ntile,97
+Macedonia,0,poli_stab_ntile,41
+Madagascar,0,poli_stab_ntile,35
+Malawi,0,poli_stab_ntile,38
+Malaysia,0,poli_stab_ntile,56
+Maldives,0,poli_stab_ntile,61
+Mali,0,poli_stab_ntile,7
+Malta,0,poli_stab_ntile,96
+Marshall Islands,0,poli_stab_ntile,58
+Mauritania,0,poli_stab_ntile,26
+Mauritius,0,poli_stab_ntile,86
+Mexico,1,poli_stab_ntile,25
+Micronesia,0,poli_stab_ntile,94
+Moldova,0,poli_stab_ntile,42
+Monaco,0,poli_stab_ntile,100
+Mongolia,0,poli_stab_ntile,78
+Montenegro,0,poli_stab_ntile,48
+Morocco,0,poli_stab_ntile,34
+Mozambique,0,poli_stab_ntile,15
+Myanmar,0,poli_stab_ntile,14
+Namibia,0,poli_stab_ntile,72
+Nauru,0,poli_stab_ntile,70
+Nepal,0,poli_stab_ntile,25
+Netherlands,2,poli_stab_ntile,83
+New Zealand,2,poli_stab_ntile,99
+Nicaragua,1,poli_stab_ntile,46
+Niger,0,poli_stab_ntile,11
+Nigeria,0,poli_stab_ntile,7
+Norway,2,poli_stab_ntile,93
+Oman,0,poli_stab_ntile,75
+Pakistan,0,poli_stab_ntile,3
+Palau,0,poli_stab_ntile,84
+Panama,1,poli_stab_ntile,66
+Papua New Guinea,0,poli_stab_ntile,28
+Paraguay,0,poli_stab_ntile,55
+Peru,0,poli_stab_ntile,39
+Philippines,1,poli_stab_ntile,12
+Poland,0,poli_stab_ntile,69
+Portugal,0,poli_stab_ntile,91
+Qatar,0,poli_stab_ntile,69
+Romania,0,poli_stab_ntile,53
+Russia,0,poli_stab_ntile,23
+Rwanda,0,poli_stab_ntile,51
+Saint Kitts and Nevis,0,poli_stab_ntile,72
+Saint Lucia,0,poli_stab_ntile,93
+Saint Vincent and the Grenadines,0,poli_stab_ntile,83
+Samoa,0,poli_stab_ntile,95
+San Marino,0,poli_stab_ntile,84
+Sao Tome and Principe,0,poli_stab_ntile,59
+Saudi Arabia,0,poli_stab_ntile,26
+Senegal,0,poli_stab_ntile,48
+Serbia,0,poli_stab_ntile,54
+Seychelles,0,poli_stab_ntile,73
+Sierra Leone,0,poli_stab_ntile,50
+Singapore,2,poli_stab_ntile,99
+Slovakia,0,poli_stab_ntile,79
+Slovenia,0,poli_stab_ntile,80
+Solomon Islands,0,poli_stab_ntile,59
+Somalia,0,poli_stab_ntile,4
+South Africa,0,poli_stab_ntile,38
+South Sudan,0,poli_stab_ntile,2
+Spain,1,poli_stab_ntile,62
+Sri Lanka,0,poli_stab_ntile,46
+Sudan,0,poli_stab_ntile,5
+Suriname,0,poli_stab_ntile,55
+Sweden,2,poli_stab_ntile,85
+Switzerland,2,poli_stab_ntile,95
+Syria,0,poli_stab_ntile,2
+Taiwan,0,poli_stab_ntile,81
+Tajikistan,0,poli_stab_ntile,24
+Tanzania,0,poli_stab_ntile,28
+Thailand,1,poli_stab_ntile,21
+Timor-Leste,0,poli_stab_ntile,51
+Togo,0,poli_stab_ntile,21
+Tonga,0,poli_stab_ntile,77
+Trinidad and Tobago,0,poli_stab_ntile,63
+Tunisia,0,poli_stab_ntile,15
+Turkey,0,poli_stab_ntile,8
+Turkmenistan,0,poli_stab_ntile,44
+Tuvalu,0,poli_stab_ntile,96
+Uganda,0,poli_stab_ntile,29
+Ukraine,0,poli_stab_ntile,8
+United Arab Emirates,1,poli_stab_ntile,71
+United Kingdom,2,poli_stab_ntile,62
+United States,2,poli_stab_ntile,64
+Uruguay,1,poli_stab_ntile,90
+Uzbekistan,0,poli_stab_ntile,37
+Vanuatu,1,poli_stab_ntile,74
+Venezuela,0,poli_stab_ntile,12
+Vietnam,1,poli_stab_ntile,64
+Yemen,0,poli_stab_ntile,1
+Zambia,0,poli_stab_ntile,54
+Zimbabwe,0,poli_stab_ntile,19
+Afghanistan,0,gov_effec_ntile,10
+Albania,1,gov_effec_ntile,60
+Algeria,0,gov_effec_ntile,33
+Andorra,0,gov_effec_ntile,98
+Angola,0,gov_effec_ntile,16
+Antigua & Barbuda,0,gov_effec_ntile,57
+Argentina,1,gov_effec_ntile,63
+Armenia,0,gov_effec_ntile,53
+Australia,2,gov_effec_ntile,92
+Austria,2,gov_effec_ntile,92
+Azerbaijan,0,gov_effec_ntile,51
+Bahamas,0,gov_effec_ntile,77
+Bahrain,0,gov_effec_ntile,64
+Bangladesh,1,gov_effec_ntile,23
+Barbados,0,gov_effec_ntile,80
+Belarus,0,gov_effec_ntile,42
+Belgium,2,gov_effec_ntile,87
+Belize,0,gov_effec_ntile,29
+Benin,0,gov_effec_ntile,30
+Bhutan,0,gov_effec_ntile,75
+Bolivia,0,gov_effec_ntile,40
+Bosnia and Herzegovina,0,gov_effec_ntile,38
+Botswana,0,gov_effec_ntile,73
+Brazil,0,gov_effec_ntile,45
+Brunei,0,gov_effec_ntile,86
+Bulgaria,0,gov_effec_ntile,67
+Burkina Faso,0,gov_effec_ntile,34
+Burundi,0,gov_effec_ntile,10
+Cabo Verde,0,gov_effec_ntile,64
+Cambodia,0,gov_effec_ntile,27
+Cameroon,0,gov_effec_ntile,22
+Canada,2,gov_effec_ntile,97
+Central African Republic,0,gov_effec_ntile,3
+Chad,0,gov_effec_ntile,7
+Chile,0,gov_effec_ntile,81
+China,0,gov_effec_ntile,71
+Colombia,1,gov_effec_ntile,54
+Comoros,0,gov_effec_ntile,6
+Congo (Dem. Rep.),0,gov_effec_ntile,6
+Congo (Rep.),0,gov_effec_ntile,12
+Costa Rica,2,gov_effec_ntile,66
+Cote d'Ivoire,0,gov_effec_ntile,24
+Croatia,0,gov_effec_ntile,77
+Cuba,0,gov_effec_ntile,48
+Cyprus,0,gov_effec_ntile,82
+Czech Republic,1,gov_effec_ntile,84
+Denmark,2,gov_effec_ntile,96
+Djibouti,0,gov_effec_ntile,17
+Dominica,0,gov_effec_ntile,46
+Dominican Republic,0,gov_effec_ntile,42
+Ecuador,1,gov_effec_ntile,43
+Egypt,0,gov_effec_ntile,32
+El Salvador,1,gov_effec_ntile,41
+Equatorial Guinea,0,gov_effec_ntile,8
+Eritrea,0,gov_effec_ntile,5
+Estonia,0,gov_effec_ntile,85
+Eswatini,0,gov_effec_ntile,34
+Ethiopia,0,gov_effec_ntile,26
+Fiji,0,gov_effec_ntile,60
+Finland,2,gov_effec_ntile,98
+France,1,gov_effec_ntile,89
+Gabon,0,gov_effec_ntile,19
+"Gambia, The",0,gov_effec_ntile,28
+Georgia,0,gov_effec_ntile,76
+Germany,2,gov_effec_ntile,94
+Ghana,0,gov_effec_ntile,53
+Greece,0,gov_effec_ntile,70
+Grenada,0,gov_effec_ntile,49
+Guatemala,0,gov_effec_ntile,30
+Guinea,0,gov_effec_ntile,16
+Guinea-Bissau,0,gov_effec_ntile,4
+Guyana,0,gov_effec_ntile,45
+Haiti,0,gov_effec_ntile,2
+Honduras,0,gov_effec_ntile,36
+Hungary,0,gov_effec_ntile,75
+Iceland,2,gov_effec_ntile,91
+India,0,gov_effec_ntile,61
+Indonesia,1,gov_effec_ntile,59
+Iran,0,gov_effec_ntile,49
+Iraq,0,gov_effec_ntile,11
+Ireland,2,gov_effec_ntile,88
+Israel,1,gov_effec_ntile,90
+Italy,0,gov_effec_ntile,74
+Jamaica,1,gov_effec_ntile,74
+Japan,2,gov_effec_ntile,93
+Jordan,0,gov_effec_ntile,62
+Kazakhstan,0,gov_effec_ntile,57
+Kenya,0,gov_effec_ntile,44
+Kiribati,0,gov_effec_ntile,47
+Korea (Dem. People's Rep.),0,gov_effec_ntile,5
+Korea (Rep.),0,gov_effec_ntile,85
+Kosovo,0,gov_effec_ntile,40
+Kuwait,0,gov_effec_ntile,50
+Kyrgyzstan,0,gov_effec_ntile,25
+Laos,0,gov_effec_ntile,41
+Latvia,0,gov_effec_ntile,81
+Lebanon,0,gov_effec_ntile,37
+Lesotho,0,gov_effec_ntile,21
+Liberia,0,gov_effec_ntile,9
+Libya,0,gov_effec_ntile,4
+Liechtenstein,1,gov_effec_ntile,95
+Lithuania,0,gov_effec_ntile,83
+Luxembourg,2,gov_effec_ntile,94
+Macedonia,0,gov_effec_ntile,62
+Madagascar,0,gov_effec_ntile,13
+Malawi,0,gov_effec_ntile,26
+Malaysia,0,gov_effec_ntile,80
+Maldives,0,gov_effec_ntile,39
+Mali,0,gov_effec_ntile,19
+Malta,0,gov_effec_ntile,83
+Marshall Islands,0,gov_effec_ntile,7
+Mauritania,0,gov_effec_ntile,25
+Mauritius,0,gov_effec_ntile,82
+Mexico,1,gov_effec_ntile,56
+Micronesia,0,gov_effec_ntile,61
+Moldova,0,gov_effec_ntile,37
+Monaco,0,gov_effec_ntile,NA
+Mongolia,0,gov_effec_ntile,46
+Montenegro,0,gov_effec_ntile,63
+Morocco,0,gov_effec_ntile,51
+Mozambique,0,gov_effec_ntile,20
+Myanmar,0,gov_effec_ntile,15
+Namibia,0,gov_effec_ntile,65
+Nauru,0,gov_effec_ntile,39
+Nepal,0,gov_effec_ntile,21
+Netherlands,2,gov_effec_ntile,97
+New Zealand,2,gov_effec_ntile,95
+Nicaragua,1,gov_effec_ntile,31
+Niger,0,gov_effec_ntile,27
+Nigeria,0,gov_effec_ntile,18
+Norway,2,gov_effec_ntile,99
+Oman,0,gov_effec_ntile,66
+Pakistan,0,gov_effec_ntile,35
+Palau,0,gov_effec_ntile,47
+Panama,1,gov_effec_ntile,58
+Papua New Guinea,0,gov_effec_ntile,28
+Paraguay,0,gov_effec_ntile,22
+Peru,0,gov_effec_ntile,52
+Philippines,1,gov_effec_ntile,55
+Poland,0,gov_effec_ntile,78
+Portugal,0,gov_effec_ntile,89
+Qatar,0,gov_effec_ntile,79
+Romania,0,gov_effec_ntile,50
+Russia,0,gov_effec_ntile,54
+Rwanda,0,gov_effec_ntile,68
+Saint Kitts and Nevis,0,gov_effec_ntile,76
+Saint Lucia,0,gov_effec_ntile,69
+Saint Vincent and the Grenadines,0,gov_effec_ntile,69
+Samoa,0,gov_effec_ntile,78
+San Marino,0,gov_effec_ntile,NA
+Sao Tome and Principe,0,gov_effec_ntile,23
+Saudi Arabia,0,gov_effec_ntile,67
+Senegal,0,gov_effec_ntile,44
+Serbia,0,gov_effec_ntile,65
+Seychelles,0,gov_effec_ntile,72
+Sierra Leone,0,gov_effec_ntile,11
+Singapore,2,gov_effec_ntile,100
+Slovakia,0,gov_effec_ntile,79
+Slovenia,0,gov_effec_ntile,87
+Solomon Islands,0,gov_effec_ntile,17
+Somalia,0,gov_effec_ntile,1
+South Africa,0,gov_effec_ntile,70
+South Sudan,0,gov_effec_ntile,1
+Spain,1,gov_effec_ntile,84
+Sri Lanka,0,gov_effec_ntile,52
+Sudan,0,gov_effec_ntile,8
+Suriname,0,gov_effec_ntile,32
+Sweden,2,gov_effec_ntile,96
+Switzerland,2,gov_effec_ntile,99
+Syria,0,gov_effec_ntile,3
+Taiwan,0,gov_effec_ntile,88
+Tajikistan,0,gov_effec_ntile,14
+Tanzania,0,gov_effec_ntile,31
+Thailand,1,gov_effec_ntile,71
+Timor-Leste,0,gov_effec_ntile,18
+Togo,0,gov_effec_ntile,14
+Tonga,0,gov_effec_ntile,48
+Trinidad and Tobago,0,gov_effec_ntile,68
+Tunisia,0,gov_effec_ntile,55
+Turkey,0,gov_effec_ntile,59
+Turkmenistan,0,gov_effec_ntile,12
+Tuvalu,0,gov_effec_ntile,24
+Uganda,0,gov_effec_ntile,35
+Ukraine,0,gov_effec_ntile,38
+United Arab Emirates,1,gov_effec_ntile,90
+United Kingdom,2,gov_effec_ntile,91
+United States,2,gov_effec_ntile,93
+Uruguay,1,gov_effec_ntile,73
+Uzbekistan,0,gov_effec_ntile,36
+Vanuatu,1,gov_effec_ntile,20
+Venezuela,0,gov_effec_ntile,9
+Vietnam,1,gov_effec_ntile,56
+Yemen,0,gov_effec_ntile,2
+Zambia,0,gov_effec_ntile,33
+Zimbabwe,0,gov_effec_ntile,13
+Afghanistan,0,reg_qual_ntile,8
+Albania,1,reg_qual_ntile,66
+Algeria,0,reg_qual_ntile,11
+Andorra,0,reg_qual_ntile,87
+Angola,0,reg_qual_ntile,14
+Antigua & Barbuda,0,reg_qual_ntile,67
+Argentina,1,reg_qual_ntile,45
+Armenia,0,reg_qual_ntile,68
+Australia,2,reg_qual_ntile,98
+Austria,2,reg_qual_ntile,91
+Azerbaijan,0,reg_qual_ntile,46
+Bahamas,0,reg_qual_ntile,62
+Bahrain,0,reg_qual_ntile,71
+Bangladesh,1,reg_qual_ntile,23
+Barbados,0,reg_qual_ntile,75
+Belarus,0,reg_qual_ntile,26
+Belgium,2,reg_qual_ntile,88
+Belize,0,reg_qual_ntile,34
+Benin,0,reg_qual_ntile,36
+Bhutan,0,reg_qual_ntile,42
+Bolivia,0,reg_qual_ntile,18
+Bosnia and Herzegovina,0,reg_qual_ntile,51
+Botswana,0,reg_qual_ntile,74
+Brazil,0,reg_qual_ntile,55
+Brunei,0,reg_qual_ntile,80
+Bulgaria,0,reg_qual_ntile,77
+Burkina Faso,0,reg_qual_ntile,38
+Burundi,0,reg_qual_ntile,20
+Cabo Verde,0,reg_qual_ntile,50
+Cambodia,0,reg_qual_ntile,35
+Cameroon,0,reg_qual_ntile,22
+Canada,2,reg_qual_ntile,98
+Central African Republic,0,reg_qual_ntile,6
+Chad,0,reg_qual_ntile,10
+Chile,0,reg_qual_ntile,89
+China,0,reg_qual_ntile,52
+Colombia,1,reg_qual_ntile,70
+Comoros,0,reg_qual_ntile,14
+Congo (Dem. Rep.),0,reg_qual_ntile,6
+Congo (Rep.),0,reg_qual_ntile,8
+Costa Rica,2,reg_qual_ntile,74
+Cote d'Ivoire,0,reg_qual_ntile,41
+Croatia,0,reg_qual_ntile,71
+Cuba,0,reg_qual_ntile,9
+Cyprus,0,reg_qual_ntile,83
+Czech Republic,1,reg_qual_ntile,87
+Denmark,2,reg_qual_ntile,93
+Djibouti,0,reg_qual_ntile,31
+Dominica,0,reg_qual_ntile,63
+Dominican Republic,0,reg_qual_ntile,56
+Ecuador,1,reg_qual_ntile,16
+Egypt,0,reg_qual_ntile,19
+El Salvador,1,reg_qual_ntile,52
+Equatorial Guinea,0,reg_qual_ntile,7
+Eritrea,0,reg_qual_ntile,2
+Estonia,0,reg_qual_ntile,94
+Eswatini,0,reg_qual_ntile,34
+Ethiopia,0,reg_qual_ntile,16
+Fiji,0,reg_qual_ntile,49
+Finland,2,reg_qual_ntile,97
+France,1,reg_qual_ntile,85
+Gabon,0,reg_qual_ntile,24
+"Gambia, The",0,reg_qual_ntile,37
+Georgia,0,reg_qual_ntile,84
+Germany,2,reg_qual_ntile,95
+Ghana,0,reg_qual_ntile,53
+Greece,0,reg_qual_ntile,67
+Grenada,0,reg_qual_ntile,58
+Guatemala,0,reg_qual_ntile,46
+Guinea,0,reg_qual_ntile,20
+Guinea-Bissau,0,reg_qual_ntile,12
+Guyana,0,reg_qual_ntile,41
+Haiti,0,reg_qual_ntile,9
+Honduras,0,reg_qual_ntile,38
+Hungary,0,reg_qual_ntile,78
+Iceland,2,reg_qual_ntile,91
+India,0,reg_qual_ntile,47
+Indonesia,1,reg_qual_ntile,56
+Iran,0,reg_qual_ntile,11
+Iraq,0,reg_qual_ntile,12
+Ireland,2,reg_qual_ntile,92
+Israel,1,reg_qual_ntile,88
+Italy,0,reg_qual_ntile,79
+Jamaica,1,reg_qual_ntile,63
+Japan,2,reg_qual_ntile,90
+Jordan,0,reg_qual_ntile,62
+Kazakhstan,0,reg_qual_ntile,65
+Kenya,0,reg_qual_ntile,47
+Kiribati,0,reg_qual_ntile,21
+Korea (Dem. People's Rep.),0,reg_qual_ntile,1
+Korea (Rep.),0,reg_qual_ntile,84
+Kosovo,0,reg_qual_ntile,54
+Kuwait,0,reg_qual_ntile,57
+Kyrgyzstan,0,reg_qual_ntile,42
+Laos,0,reg_qual_ntile,28
+Latvia,0,reg_qual_ntile,85
+Lebanon,0,reg_qual_ntile,45
+Lesotho,0,reg_qual_ntile,44
+Liberia,0,reg_qual_ntile,17
+Libya,0,reg_qual_ntile,2
+Liechtenstein,1,reg_qual_ntile,92
+Lithuania,0,reg_qual_ntile,86
+Luxembourg,2,reg_qual_ntile,94
+Macedonia,0,reg_qual_ntile,76
+Madagascar,0,reg_qual_ntile,29
+Malawi,0,reg_qual_ntile,26
+Malaysia,0,reg_qual_ntile,79
+Maldives,0,reg_qual_ntile,39
+Mali,0,reg_qual_ntile,33
+Malta,0,reg_qual_ntile,89
+Marshall Islands,0,reg_qual_ntile,15
+Mauritania,0,reg_qual_ntile,25
+Mauritius,0,reg_qual_ntile,82
+Mexico,1,reg_qual_ntile,65
+Micronesia,0,reg_qual_ntile,17
+Moldova,0,reg_qual_ntile,59
+Monaco,0,reg_qual_ntile,NA
+Mongolia,0,reg_qual_ntile,55
+Montenegro,0,reg_qual_ntile,69
+Morocco,0,reg_qual_ntile,48
+Mozambique,0,reg_qual_ntile,27
+Myanmar,0,reg_qual_ntile,21
+Namibia,0,reg_qual_ntile,50
+Nauru,0,reg_qual_ntile,13
+Nepal,0,reg_qual_ntile,28
+Netherlands,2,reg_qual_ntile,99
+New Zealand,2,reg_qual_ntile,99
+Nicaragua,1,reg_qual_ntile,30
+Niger,0,reg_qual_ntile,30
+Nigeria,0,reg_qual_ntile,19
+Norway,2,reg_qual_ntile,96
+Oman,0,reg_qual_ntile,72
+Pakistan,0,reg_qual_ntile,32
+Palau,0,reg_qual_ntile,32
+Panama,1,reg_qual_ntile,70
+Papua New Guinea,0,reg_qual_ntile,31
+Paraguay,0,reg_qual_ntile,48
+Peru,0,reg_qual_ntile,73
+Philippines,1,reg_qual_ntile,60
+Poland,0,reg_qual_ntile,81
+Portugal,0,reg_qual_ntile,81
+Qatar,0,reg_qual_ntile,73
+Romania,0,reg_qual_ntile,75
+Russia,0,reg_qual_ntile,36
+Rwanda,0,reg_qual_ntile,64
+Saint Kitts and Nevis,0,reg_qual_ntile,76
+Saint Lucia,0,reg_qual_ntile,69
+Saint Vincent and the Grenadines,0,reg_qual_ntile,68
+Samoa,0,reg_qual_ntile,57
+San Marino,0,reg_qual_ntile,NA
+Sao Tome and Principe,0,reg_qual_ntile,22
+Saudi Arabia,0,reg_qual_ntile,59
+Senegal,0,reg_qual_ntile,53
+Serbia,0,reg_qual_ntile,60
+Seychelles,0,reg_qual_ntile,51
+Sierra Leone,0,reg_qual_ntile,18
+Singapore,2,reg_qual_ntile,100
+Slovakia,0,reg_qual_ntile,80
+Slovenia,0,reg_qual_ntile,77
+Solomon Islands,0,reg_qual_ntile,23
+Somalia,0,reg_qual_ntile,1
+South Africa,0,reg_qual_ntile,66
+South Sudan,0,reg_qual_ntile,4
+Spain,1,reg_qual_ntile,82
+Sri Lanka,0,reg_qual_ntile,54
+Sudan,0,reg_qual_ntile,5
+Suriname,0,reg_qual_ntile,35
+Sweden,2,reg_qual_ntile,96
+Switzerland,2,reg_qual_ntile,97
+Syria,0,reg_qual_ntile,4
+Taiwan,0,reg_qual_ntile,90
+Tajikistan,0,reg_qual_ntile,13
+Tanzania,0,reg_qual_ntile,33
+Thailand,1,reg_qual_ntile,64
+Timor-Leste,0,reg_qual_ntile,27
+Togo,0,reg_qual_ntile,24
+Tonga,0,reg_qual_ntile,40
+Trinidad and Tobago,0,reg_qual_ntile,61
+Tunisia,0,reg_qual_ntile,39
+Turkey,0,reg_qual_ntile,61
+Turkmenistan,0,reg_qual_ntile,3
+Tuvalu,0,reg_qual_ntile,25
+Uganda,0,reg_qual_ntile,49
+Ukraine,0,reg_qual_ntile,44
+United Arab Emirates,1,reg_qual_ntile,83
+United Kingdom,2,reg_qual_ntile,95
+United States,2,reg_qual_ntile,93
+Uruguay,1,reg_qual_ntile,78
+Uzbekistan,0,reg_qual_ntile,10
+Vanuatu,1,reg_qual_ntile,43
+Venezuela,0,reg_qual_ntile,3
+Vietnam,1,reg_qual_ntile,40
+Yemen,0,reg_qual_ntile,7
+Zambia,0,reg_qual_ntile,37
+Zimbabwe,0,reg_qual_ntile,5
+Afghanistan,0,rule_law_ntile,6
+Albania,1,rule_law_ntile,42
+Algeria,0,rule_law_ntile,21
+Andorra,0,rule_law_ntile,91
+Angola,0,rule_law_ntile,13
+Antigua & Barbuda,0,rule_law_ntile,71
+Argentina,1,rule_law_ntile,49
+Armenia,0,rule_law_ntile,53
+Australia,2,rule_law_ntile,94
+Austria,2,rule_law_ntile,96
+Azerbaijan,0,rule_law_ntile,35
+Bahamas,0,rule_law_ntile,64
+Bahrain,0,rule_law_ntile,72
+Bangladesh,1,rule_law_ntile,31
+Barbados,0,rule_law_ntile,80
+Belarus,0,rule_law_ntile,23
+Belgium,2,rule_law_ntile,89
+Belize,0,rule_law_ntile,18
+Benin,0,rule_law_ntile,33
+Bhutan,0,rule_law_ntile,78
+Bolivia,0,rule_law_ntile,11
+Bosnia and Herzegovina,0,rule_law_ntile,51
+Botswana,0,rule_law_ntile,74
+Brazil,0,rule_law_ntile,47
+Brunei,0,rule_law_ntile,79
+Bulgaria,0,rule_law_ntile,55
+Burkina Faso,0,rule_law_ntile,42
+Burundi,0,rule_law_ntile,8
+Cabo Verde,0,rule_law_ntile,69
+Cambodia,0,rule_law_ntile,14
+Cameroon,0,rule_law_ntile,17
+Canada,2,rule_law_ntile,95
+Central African Republic,0,rule_law_ntile,4
+Chad,0,rule_law_ntile,10
+Chile,0,rule_law_ntile,84
+China,0,rule_law_ntile,48
+Colombia,1,rule_law_ntile,44
+Comoros,0,rule_law_ntile,16
+Congo (Dem. Rep.),0,rule_law_ntile,5
+Congo (Rep.),0,rule_law_ntile,13
+Costa Rica,2,rule_law_ntile,73
+Cote d'Ivoire,0,rule_law_ntile,33
+Croatia,0,rule_law_ntile,67
+Cuba,0,rule_law_ntile,38
+Cyprus,0,rule_law_ntile,82
+Czech Republic,1,rule_law_ntile,86
+Denmark,2,rule_law_ntile,97
+Djibouti,0,rule_law_ntile,20
+Dominica,0,rule_law_ntile,79
+Dominican Republic,0,rule_law_ntile,39
+Ecuador,1,rule_law_ntile,28
+Egypt,0,rule_law_ntile,36
+El Salvador,1,rule_law_ntile,22
+Equatorial Guinea,0,rule_law_ntile,7
+Eritrea,0,rule_law_ntile,6
+Estonia,0,rule_law_ntile,89
+Eswatini,0,rule_law_ntile,46
+Ethiopia,0,rule_law_ntile,37
+Fiji,0,rule_law_ntile,49
+Finland,2,rule_law_ntile,100
+France,1,rule_law_ntile,90
+Gabon,0,rule_law_ntile,28
+"Gambia, The",0,rule_law_ntile,37
+Georgia,0,rule_law_ntile,68
+Germany,2,rule_law_ntile,92
+Ghana,0,rule_law_ntile,63
+Greece,0,rule_law_ntile,61
+Grenada,0,rule_law_ntile,71
+Guatemala,0,rule_law_ntile,15
+Guinea,0,rule_law_ntile,10
+Guinea-Bissau,0,rule_law_ntile,8
+Guyana,0,rule_law_ntile,47
+Haiti,0,rule_law_ntile,14
+Honduras,0,rule_law_ntile,16
+Hungary,0,rule_law_ntile,75
+Iceland,2,rule_law_ntile,92
+India,0,rule_law_ntile,56
+Indonesia,1,rule_law_ntile,44
+Iran,0,rule_law_ntile,29
+Iraq,0,rule_law_ntile,5
+Ireland,2,rule_law_ntile,90
+Israel,1,rule_law_ntile,85
+Italy,0,rule_law_ntile,67
+Jamaica,1,rule_law_ntile,53
+Japan,2,rule_law_ntile,91
+Jordan,0,rule_law_ntile,65
+Kazakhstan,0,rule_law_ntile,40
+Kenya,0,rule_law_ntile,40
+Kiribati,0,rule_law_ntile,75
+Korea (Dem. People's Rep.),0,rule_law_ntile,4
+Korea (Rep.),0,rule_law_ntile,88
+Kosovo,0,rule_law_ntile,39
+Kuwait,0,rule_law_ntile,61
+Kyrgyzstan,0,rule_law_ntile,19
+Laos,0,rule_law_ntile,20
+Latvia,0,rule_law_ntile,83
+Lebanon,0,rule_law_ntile,23
+Lesotho,0,rule_law_ntile,48
+Liberia,0,rule_law_ntile,18
+Libya,0,rule_law_ntile,3
+Liechtenstein,1,rule_law_ntile,93
+Lithuania,0,rule_law_ntile,83
+Luxembourg,2,rule_law_ntile,95
+Macedonia,0,rule_law_ntile,50
+Madagascar,0,rule_law_ntile,22
+Malawi,0,rule_law_ntile,43
+Malaysia,0,rule_law_ntile,69
+Maldives,0,rule_law_ntile,34
+Mali,0,rule_law_ntile,25
+Malta,0,rule_law_ntile,87
+Marshall Islands,0,rule_law_ntile,64
+Mauritania,0,rule_law_ntile,34
+Mauritius,0,rule_law_ntile,80
+Mexico,1,rule_law_ntile,35
+Micronesia,0,rule_law_ntile,57
+Moldova,0,rule_law_ntile,41
+Monaco,0,rule_law_ntile,NA
+Mongolia,0,rule_law_ntile,45
+Montenegro,0,rule_law_ntile,57
+Morocco,0,rule_law_ntile,52
+Mozambique,0,rule_law_ntile,17
+Myanmar,0,rule_law_ntile,19
+Namibia,0,rule_law_ntile,65
+Nauru,0,rule_law_ntile,26
+Nepal,0,rule_law_ntile,30
+Netherlands,2,rule_law_ntile,97
+New Zealand,2,rule_law_ntile,98
+Nicaragua,1,rule_law_ntile,32
+Niger,0,rule_law_ntile,30
+Nigeria,0,rule_law_ntile,21
+Norway,2,rule_law_ntile,99
+Oman,0,rule_law_ntile,70
+Pakistan,0,rule_law_ntile,26
+Palau,0,rule_law_ntile,66
+Panama,1,rule_law_ntile,58
+Papua New Guinea,0,rule_law_ntile,24
+Paraguay,0,rule_law_ntile,32
+Peru,0,rule_law_ntile,36
+Philippines,1,rule_law_ntile,41
+Poland,0,rule_law_ntile,73
+Portugal,0,rule_law_ntile,87
+Qatar,0,rule_law_ntile,81
+Romania,0,rule_law_ntile,68
+Russia,0,rule_law_ntile,24
+Rwanda,0,rule_law_ntile,63
+Saint Kitts and Nevis,0,rule_law_ntile,76
+Saint Lucia,0,rule_law_ntile,78
+Saint Vincent and the Grenadines,0,rule_law_ntile,70
+Samoa,0,rule_law_ntile,82
+San Marino,0,rule_law_ntile,NA
+Sao Tome and Principe,0,rule_law_ntile,31
+Saudi Arabia,0,rule_law_ntile,62
+Senegal,0,rule_law_ntile,54
+Serbia,0,rule_law_ntile,52
+Seychelles,0,rule_law_ntile,62
+Sierra Leone,0,rule_law_ntile,25
+Singapore,2,rule_law_ntile,96
+Slovakia,0,rule_law_ntile,77
+Slovenia,0,rule_law_ntile,85
+Solomon Islands,0,rule_law_ntile,51
+Somalia,0,rule_law_ntile,1
+South Africa,0,rule_law_ntile,56
+South Sudan,0,rule_law_ntile,2
+Spain,1,rule_law_ntile,84
+Sri Lanka,0,rule_law_ntile,59
+Sudan,0,rule_law_ntile,12
+Suriname,0,rule_law_ntile,54
+Sweden,2,rule_law_ntile,99
+Switzerland,2,rule_law_ntile,98
+Syria,0,rule_law_ntile,2
+Taiwan,0,rule_law_ntile,88
+Tajikistan,0,rule_law_ntile,9
+Tanzania,0,rule_law_ntile,38
+Thailand,1,rule_law_ntile,59
+Timor-Leste,0,rule_law_ntile,11
+Togo,0,rule_law_ntile,27
+Tonga,0,rule_law_ntile,66
+Trinidad and Tobago,0,rule_law_ntile,55
+Tunisia,0,rule_law_ntile,60
+Turkey,0,rule_law_ntile,50
+Turkmenistan,0,rule_law_ntile,7
+Tuvalu,0,rule_law_ntile,76
+Uganda,0,rule_law_ntile,46
+Ukraine,0,rule_law_ntile,27
+United Arab Emirates,1,rule_law_ntile,81
+United Kingdom,2,rule_law_ntile,94
+United States,2,rule_law_ntile,93
+Uruguay,1,rule_law_ntile,77
+Uzbekistan,0,rule_law_ntile,12
+Vanuatu,1,rule_law_ntile,74
+Venezuela,0,rule_law_ntile,1
+Vietnam,1,rule_law_ntile,60
+Yemen,0,rule_law_ntile,3
+Zambia,0,rule_law_ntile,45
+Zimbabwe,0,rule_law_ntile,9
+Afghanistan,0,corrupt_ntile,5
+Albania,1,corrupt_ntile,46
+Algeria,0,corrupt_ntile,33
+Andorra,0,corrupt_ntile,87
+Angola,0,corrupt_ntile,7
+Antigua & Barbuda,0,corrupt_ntile,67
+Argentina,1,corrupt_ntile,51
+Armenia,0,corrupt_ntile,35
+Australia,2,corrupt_ntile,93
+Austria,2,corrupt_ntile,91
+Azerbaijan,0,corrupt_ntile,20
+Bahamas,0,corrupt_ntile,87
+Bahrain,0,corrupt_ntile,56
+Bangladesh,1,corrupt_ntile,21
+Barbados,0,corrupt_ntile,90
+Belarus,0,corrupt_ntile,52
+Belgium,2,corrupt_ntile,90
+Belize,0,corrupt_ntile,50
+Benin,0,corrupt_ntile,37
+Bhutan,0,corrupt_ntile,92
+Bolivia,0,corrupt_ntile,30
+Bosnia and Herzegovina,0,corrupt_ntile,40
+Botswana,0,corrupt_ntile,82
+Brazil,0,corrupt_ntile,39
+Brunei,0,corrupt_ntile,78
+Bulgaria,0,corrupt_ntile,55
+Burkina Faso,0,corrupt_ntile,58
+Burundi,0,corrupt_ntile,10
+Cabo Verde,0,corrupt_ntile,84
+Cambodia,0,corrupt_ntile,10
+Cameroon,0,corrupt_ntile,12
+Canada,2,corrupt_ntile,95
+Central African Republic,0,corrupt_ntile,13
+Chad,0,corrupt_ntile,6
+Chile,0,corrupt_ntile,85
+China,0,corrupt_ntile,51
+Colombia,1,corrupt_ntile,47
+Comoros,0,corrupt_ntile,30
+Congo (Dem. Rep.),0,corrupt_ntile,7
+Congo (Rep.),0,corrupt_ntile,9
+Costa Rica,2,corrupt_ntile,71
+Cote d'Ivoire,0,corrupt_ntile,40
+Croatia,0,corrupt_ntile,65
+Cuba,0,corrupt_ntile,69
+Cyprus,0,corrupt_ntile,82
+Czech Republic,1,corrupt_ntile,75
+Denmark,2,corrupt_ntile,98
+Djibouti,0,corrupt_ntile,32
+Dominica,0,corrupt_ntile,77
+Dominican Republic,0,corrupt_ntile,26
+Ecuador,1,corrupt_ntile,34
+Egypt,0,corrupt_ntile,37
+El Salvador,1,corrupt_ntile,41
+Equatorial Guinea,0,corrupt_ntile,1
+Eritrea,0,corrupt_ntile,12
+Estonia,0,corrupt_ntile,88
+Eswatini,0,corrupt_ntile,50
+Ethiopia,0,corrupt_ntile,36
+Fiji,0,corrupt_ntile,70
+Finland,2,corrupt_ntile,99
+France,1,corrupt_ntile,88
+Gabon,0,corrupt_ntile,22
+"Gambia, The",0,corrupt_ntile,31
+Georgia,0,corrupt_ntile,80
+Germany,2,corrupt_ntile,93
+Ghana,0,corrupt_ntile,53
+Greece,0,corrupt_ntile,57
+Grenada,0,corrupt_ntile,72
+Guatemala,0,corrupt_ntile,27
+Guinea,0,corrupt_ntile,16
+Guinea-Bissau,0,corrupt_ntile,3
+Guyana,0,corrupt_ntile,41
+Haiti,0,corrupt_ntile,11
+Honduras,0,corrupt_ntile,27
+Hungary,0,corrupt_ntile,64
+Iceland,2,corrupt_ntile,94
+India,0,corrupt_ntile,53
+Indonesia,1,corrupt_ntile,52
+Iran,0,corrupt_ntile,23
+Iraq,0,corrupt_ntile,8
+Ireland,2,corrupt_ntile,92
+Israel,1,corrupt_ntile,83
+Italy,0,corrupt_ntile,66
+Jamaica,1,corrupt_ntile,54
+Japan,2,corrupt_ntile,91
+Jordan,0,corrupt_ntile,68
+Kazakhstan,0,corrupt_ntile,22
+Kenya,0,corrupt_ntile,17
+Kiribati,0,corrupt_ntile,71
+Korea (Dem. People's Rep.),0,corrupt_ntile,5
+Korea (Rep.),0,corrupt_ntile,73
+Kosovo,0,corrupt_ntile,42
+Kuwait,0,corrupt_ntile,49
+Kyrgyzstan,0,corrupt_ntile,14
+Laos,0,corrupt_ntile,18
+Latvia,0,corrupt_ntile,74
+Lebanon,0,corrupt_ntile,17
+Lesotho,0,corrupt_ntile,60
+Liberia,0,corrupt_ntile,29
+Libya,0,corrupt_ntile,2
+Liechtenstein,1,corrupt_ntile,97
+Lithuania,0,corrupt_ntile,75
+Luxembourg,2,corrupt_ntile,96
+Macedonia,0,corrupt_ntile,49
+Madagascar,0,corrupt_ntile,15
+Malawi,0,corrupt_ntile,31
+Malaysia,0,corrupt_ntile,63
+Maldives,0,corrupt_ntile,24
+Mali,0,corrupt_ntile,33
+Malta,0,corrupt_ntile,81
+Marshall Islands,0,corrupt_ntile,62
+Mauritania,0,corrupt_ntile,25
+Mauritius,0,corrupt_ntile,66
+Mexico,1,corrupt_ntile,18
+Micronesia,0,corrupt_ntile,81
+Moldova,0,corrupt_ntile,23
+Monaco,0,corrupt_ntile,NA
+Mongolia,0,corrupt_ntile,45
+Montenegro,0,corrupt_ntile,59
+Morocco,0,corrupt_ntile,57
+Mozambique,0,corrupt_ntile,21
+Myanmar,0,corrupt_ntile,36
+Namibia,0,corrupt_ntile,69
+Nauru,0,corrupt_ntile,44
+Nepal,0,corrupt_ntile,26
+Netherlands,2,corrupt_ntile,95
+New Zealand,2,corrupt_ntile,99
+Nicaragua,1,corrupt_ntile,20
+Niger,0,corrupt_ntile,32
+Nigeria,0,corrupt_ntile,14
+Norway,2,corrupt_ntile,100
+Oman,0,corrupt_ntile,68
+Pakistan,0,corrupt_ntile,24
+Palau,0,corrupt_ntile,45
+Panama,1,corrupt_ntile,38
+Papua New Guinea,0,corrupt_ntile,19
+Paraguay,0,corrupt_ntile,28
+Peru,0,corrupt_ntile,42
+Philippines,1,corrupt_ntile,43
+Poland,0,corrupt_ntile,79
+Portugal,0,corrupt_ntile,84
+Qatar,0,corrupt_ntile,80
+Romania,0,corrupt_ntile,61
+Russia,0,corrupt_ntile,19
+Rwanda,0,corrupt_ntile,76
+Saint Kitts and Nevis,0,corrupt_ntile,74
+Saint Lucia,0,corrupt_ntile,76
+Saint Vincent and the Grenadines,0,corrupt_ntile,79
+Samoa,0,corrupt_ntile,77
+San Marino,0,corrupt_ntile,NA
+Sao Tome and Principe,0,corrupt_ntile,65
+Saudi Arabia,0,corrupt_ntile,70
+Senegal,0,corrupt_ntile,60
+Serbia,0,corrupt_ntile,48
+Seychelles,0,corrupt_ntile,78
+Sierra Leone,0,corrupt_ntile,34
+Singapore,2,corrupt_ntile,97
+Slovakia,0,corrupt_ntile,67
+Slovenia,0,corrupt_ntile,83
+Solomon Islands,0,corrupt_ntile,64
+Somalia,0,corrupt_ntile,1
+South Africa,0,corrupt_ntile,61
+South Sudan,0,corrupt_ntile,2
+Spain,1,corrupt_ntile,73
+Sri Lanka,0,corrupt_ntile,46
+Sudan,0,corrupt_ntile,4
+Suriname,0,corrupt_ntile,55
+Sweden,2,corrupt_ntile,98
+Switzerland,2,corrupt_ntile,96
+Syria,0,corrupt_ntile,4
+Taiwan,0,corrupt_ntile,85
+Tajikistan,0,corrupt_ntile,9
+Tanzania,0,corrupt_ntile,44
+Thailand,1,corrupt_ntile,47
+Timor-Leste,0,corrupt_ntile,38
+Togo,0,corrupt_ntile,28
+Tonga,0,corrupt_ntile,56
+Trinidad and Tobago,0,corrupt_ntile,48
+Tunisia,0,corrupt_ntile,59
+Turkey,0,corrupt_ntile,54
+Turkmenistan,0,corrupt_ntile,6
+Tuvalu,0,corrupt_ntile,63
+Uganda,0,corrupt_ntile,16
+Ukraine,0,corrupt_ntile,25
+United Arab Emirates,1,corrupt_ntile,86
+United Kingdom,2,corrupt_ntile,94
+United States,2,corrupt_ntile,89
+Uruguay,1,corrupt_ntile,89
+Uzbekistan,0,corrupt_ntile,13
+Vanuatu,1,corrupt_ntile,62
+Venezuela,0,corrupt_ntile,8
+Vietnam,1,corrupt_ntile,35
+Yemen,0,corrupt_ntile,3
+Zambia,0,corrupt_ntile,39
+Zimbabwe,0,corrupt_ntile,11
+Afghanistan,0,jud_effec_ntile,18
+Albania,1,jud_effec_ntile,14
+Algeria,0,jud_effec_ntile,32
+Andorra,0,jud_effec_ntile,NA
+Angola,0,jud_effec_ntile,15
+Antigua & Barbuda,0,jud_effec_ntile,NA
+Argentina,1,jud_effec_ntile,50
+Armenia,0,jud_effec_ntile,54
+Australia,2,jud_effec_ntile,99
+Austria,2,jud_effec_ntile,93
+Azerbaijan,0,jud_effec_ntile,37
+Bahamas,0,jud_effec_ntile,60
+Bahrain,0,jud_effec_ntile,65
+Bangladesh,1,jud_effec_ntile,27
+Barbados,0,jud_effec_ntile,63
+Belarus,0,jud_effec_ntile,70
+Belgium,2,jud_effec_ntile,86
+Belize,0,jud_effec_ntile,61
+Benin,0,jud_effec_ntile,26
+Bhutan,0,jud_effec_ntile,57
+Bolivia,0,jud_effec_ntile,2
+Bosnia and Herzegovina,0,jud_effec_ntile,47
+Botswana,0,jud_effec_ntile,64
+Brazil,0,jud_effec_ntile,66
+Brunei,0,jud_effec_ntile,NA
+Bulgaria,0,jud_effec_ntile,46
+Burkina Faso,0,jud_effec_ntile,52
+Burundi,0,jud_effec_ntile,9
+Cabo Verde,0,jud_effec_ntile,58
+Cambodia,0,jud_effec_ntile,14
+Cameroon,0,jud_effec_ntile,23
+Canada,2,jud_effec_ntile,91
+Central African Republic,0,jud_effec_ntile,19
+Chad,0,jud_effec_ntile,13
+Chile,0,jud_effec_ntile,79
+China,0,jud_effec_ntile,82
+Colombia,1,jud_effec_ntile,36
+Comoros,0,jud_effec_ntile,19
+Congo (Dem. Rep.),0,jud_effec_ntile,13
+Congo (Rep.),0,jud_effec_ntile,20
+Costa Rica,2,jud_effec_ntile,73
+Cote d'Ivoire,0,jud_effec_ntile,49
+Croatia,0,jud_effec_ntile,67
+Cuba,0,jud_effec_ntile,1
+Cyprus,0,jud_effec_ntile,68
+Czech Republic,1,jud_effec_ntile,73
+Denmark,2,jud_effec_ntile,96
+Djibouti,0,jud_effec_ntile,3
+Dominica,0,jud_effec_ntile,84
+Dominican Republic,0,jud_effec_ntile,12
+Ecuador,1,jud_effec_ntile,12
+Egypt,0,jud_effec_ntile,59
+El Salvador,1,jud_effec_ntile,34
+Equatorial Guinea,0,jud_effec_ntile,6
+Eritrea,0,jud_effec_ntile,3
+Estonia,0,jud_effec_ntile,97
+Eswatini,0,jud_effec_ntile,NA
+Ethiopia,0,jud_effec_ntile,37
+Fiji,0,jud_effec_ntile,53
+Finland,2,jud_effec_ntile,94
+France,1,jud_effec_ntile,88
+Gabon,0,jud_effec_ntile,18
+"Gambia, The",0,jud_effec_ntile,38
+Georgia,0,jud_effec_ntile,81
+Germany,2,jud_effec_ntile,92
+Ghana,0,jud_effec_ntile,48
+Greece,0,jud_effec_ntile,75
+Grenada,0,jud_effec_ntile,NA
+Guatemala,0,jud_effec_ntile,28
+Guinea,0,jud_effec_ntile,21
+Guinea-Bissau,0,jud_effec_ntile,61
+Guyana,0,jud_effec_ntile,46
+Haiti,0,jud_effec_ntile,47
+Honduras,0,jud_effec_ntile,31
+Hungary,0,jud_effec_ntile,69
+Iceland,2,jud_effec_ntile,88
+India,0,jud_effec_ntile,63
+Indonesia,1,jud_effec_ntile,51
+Iran,0,jud_effec_ntile,32
+Iraq,0,jud_effec_ntile,2
+Ireland,2,jud_effec_ntile,92
+Israel,1,jud_effec_ntile,95
+Italy,0,jud_effec_ntile,78
+Jamaica,1,jud_effec_ntile,67
+Japan,2,jud_effec_ntile,89
+Jordan,0,jud_effec_ntile,71
+Kazakhstan,0,jud_effec_ntile,74
+Kenya,0,jud_effec_ntile,48
+Kiribati,0,jud_effec_ntile,33
+Korea (Dem. People's Rep.),0,jud_effec_ntile,NA
+Korea (Rep.),0,jud_effec_ntile,80
+Kosovo,0,jud_effec_ntile,76
+Kuwait,0,jud_effec_ntile,62
+Kyrgyzstan,0,jud_effec_ntile,10
+Laos,0,jud_effec_ntile,44
+Latvia,0,jud_effec_ntile,74
+Lebanon,0,jud_effec_ntile,29
+Lesotho,0,jud_effec_ntile,59
+Liberia,0,jud_effec_ntile,45
+Libya,0,jud_effec_ntile,11
+Liechtenstein,1,jud_effec_ntile,NA
+Lithuania,0,jud_effec_ntile,83
+Luxembourg,2,jud_effec_ntile,91
+Macedonia,0,jud_effec_ntile,69
+Madagascar,0,jud_effec_ntile,8
+Malawi,0,jud_effec_ntile,53
+Malaysia,0,jud_effec_ntile,81
+Maldives,0,jud_effec_ntile,39
+Mali,0,jud_effec_ntile,26
+Malta,0,jud_effec_ntile,79
+Marshall Islands,0,jud_effec_ntile,NA
+Mauritania,0,jud_effec_ntile,6
+Mauritius,0,jud_effec_ntile,87
+Mexico,1,jud_effec_ntile,41
+Micronesia,0,jud_effec_ntile,16
+Moldova,0,jud_effec_ntile,17
+Monaco,0,jud_effec_ntile,NA
+Mongolia,0,jud_effec_ntile,25
+Montenegro,0,jud_effec_ntile,57
+Morocco,0,jud_effec_ntile,49
+Mozambique,0,jud_effec_ntile,35
+Myanmar,0,jud_effec_ntile,7
+Namibia,0,jud_effec_ntile,62
+Nauru,0,jud_effec_ntile,NA
+Nepal,0,jud_effec_ntile,34
+Netherlands,2,jud_effec_ntile,89
+New Zealand,2,jud_effec_ntile,98
+Nicaragua,1,jud_effec_ntile,7
+Niger,0,jud_effec_ntile,27
+Nigeria,0,jud_effec_ntile,42
+Norway,2,jud_effec_ntile,97
+Oman,0,jud_effec_ntile,72
+Pakistan,0,jud_effec_ntile,30
+Palau,0,jud_effec_ntile,NA
+Panama,1,jud_effec_ntile,23
+Papua New Guinea,0,jud_effec_ntile,66
+Paraguay,0,jud_effec_ntile,21
+Peru,0,jud_effec_ntile,29
+Philippines,1,jud_effec_ntile,38
+Poland,0,jud_effec_ntile,68
+Portugal,0,jud_effec_ntile,87
+Qatar,0,jud_effec_ntile,77
+Romania,0,jud_effec_ntile,76
+Russia,0,jud_effec_ntile,52
+Rwanda,0,jud_effec_ntile,93
+Saint Kitts and Nevis,0,jud_effec_ntile,NA
+Saint Lucia,0,jud_effec_ntile,84
+Saint Vincent and the Grenadines,0,jud_effec_ntile,85
+Samoa,0,jud_effec_ntile,39
+San Marino,0,jud_effec_ntile,NA
+Sao Tome and Principe,0,jud_effec_ntile,22
+Saudi Arabia,0,jud_effec_ntile,77
+Senegal,0,jud_effec_ntile,43
+Serbia,0,jud_effec_ntile,55
+Seychelles,0,jud_effec_ntile,40
+Sierra Leone,0,jud_effec_ntile,24
+Singapore,2,jud_effec_ntile,99
+Slovakia,0,jud_effec_ntile,41
+Slovenia,0,jud_effec_ntile,72
+Solomon Islands,0,jud_effec_ntile,71
+Somalia,0,jud_effec_ntile,16
+South Africa,0,jud_effec_ntile,82
+South Sudan,0,jud_effec_ntile,NA
+Spain,1,jud_effec_ntile,78
+Sri Lanka,0,jud_effec_ntile,58
+Sudan,0,jud_effec_ntile,8
+Suriname,0,jud_effec_ntile,9
+Sweden,2,jud_effec_ntile,98
+Switzerland,2,jud_effec_ntile,94
+Syria,0,jud_effec_ntile,11
+Taiwan,0,jud_effec_ntile,86
+Tajikistan,0,jud_effec_ntile,56
+Tanzania,0,jud_effec_ntile,31
+Thailand,1,jud_effec_ntile,51
+Timor-Leste,0,jud_effec_ntile,4
+Togo,0,jud_effec_ntile,22
+Tonga,0,jud_effec_ntile,17
+Trinidad and Tobago,0,jud_effec_ntile,56
+Tunisia,0,jud_effec_ntile,44
+Turkey,0,jud_effec_ntile,64
+Turkmenistan,0,jud_effec_ntile,1
+Tuvalu,0,jud_effec_ntile,NA
+Uganda,0,jud_effec_ntile,42
+Ukraine,0,jud_effec_ntile,24
+United Arab Emirates,1,jud_effec_ntile,96
+United Kingdom,2,jud_effec_ntile,100
+United States,2,jud_effec_ntile,90
+Uruguay,1,jud_effec_ntile,83
+Uzbekistan,0,jud_effec_ntile,33
+Vanuatu,1,jud_effec_ntile,54
+Venezuela,0,jud_effec_ntile,4
+Vietnam,1,jud_effec_ntile,36
+Yemen,0,jud_effec_ntile,5
+Zambia,0,jud_effec_ntile,43
+Zimbabwe,0,jud_effec_ntile,28
+Afghanistan,0,gov_integ_ntile,15
+Albania,1,gov_integ_ntile,58
+Algeria,0,gov_integ_ntile,27
+Andorra,0,gov_integ_ntile,NA
+Angola,0,gov_integ_ntile,3
+Antigua & Barbuda,0,gov_integ_ntile,NA
+Argentina,1,gov_integ_ntile,37
+Armenia,0,gov_integ_ntile,62
+Australia,2,gov_integ_ntile,93
+Austria,2,gov_integ_ntile,89
+Azerbaijan,0,gov_integ_ntile,59
+Bahamas,0,gov_integ_ntile,74
+Bahrain,0,gov_integ_ntile,79
+Bangladesh,1,gov_integ_ntile,5
+Barbados,0,gov_integ_ntile,82
+Belarus,0,gov_integ_ntile,64
+Belgium,2,gov_integ_ntile,87
+Belize,0,gov_integ_ntile,42
+Benin,0,gov_integ_ntile,29
+Bhutan,0,gov_integ_ntile,74
+Bolivia,0,gov_integ_ntile,7
+Bosnia and Herzegovina,0,gov_integ_ntile,26
+Botswana,0,gov_integ_ntile,83
+Brazil,0,gov_integ_ntile,32
+Brunei,0,gov_integ_ntile,NA
+Bulgaria,0,gov_integ_ntile,54
+Burkina Faso,0,gov_integ_ntile,34
+Burundi,0,gov_integ_ntile,16
+Cabo Verde,0,gov_integ_ntile,66
+Cambodia,0,gov_integ_ntile,2
+Cameroon,0,gov_integ_ntile,9
+Canada,2,gov_integ_ntile,93
+Central African Republic,0,gov_integ_ntile,12
+Chad,0,gov_integ_ntile,8
+Chile,0,gov_integ_ntile,84
+China,0,gov_integ_ntile,71
+Colombia,1,gov_integ_ntile,41
+Comoros,0,gov_integ_ntile,22
+Congo (Dem. Rep.),0,gov_integ_ntile,19
+Congo (Rep.),0,gov_integ_ntile,13
+Costa Rica,2,gov_integ_ntile,79
+Cote d'Ivoire,0,gov_integ_ntile,47
+Croatia,0,gov_integ_ntile,62
+Cuba,0,gov_integ_ntile,52
+Cyprus,0,gov_integ_ntile,63
+Czech Republic,1,gov_integ_ntile,77
+Denmark,2,gov_integ_ntile,97
+Djibouti,0,gov_integ_ntile,28
+Dominica,0,gov_integ_ntile,72
+Dominican Republic,0,gov_integ_ntile,16
+Ecuador,1,gov_integ_ntile,30
+Egypt,0,gov_integ_ntile,36
+El Salvador,1,gov_integ_ntile,14
+Equatorial Guinea,0,gov_integ_ntile,17
+Eritrea,0,gov_integ_ntile,10
+Estonia,0,gov_integ_ntile,91
+Eswatini,0,gov_integ_ntile,NA
+Ethiopia,0,gov_integ_ntile,51
+Fiji,0,gov_integ_ntile,43
+Finland,2,gov_integ_ntile,98
+France,1,gov_integ_ntile,86
+Gabon,0,gov_integ_ntile,41
+"Gambia, The",0,gov_integ_ntile,49
+Georgia,0,gov_integ_ntile,86
+Germany,2,gov_integ_ntile,90
+Ghana,0,gov_integ_ntile,38
+Greece,0,gov_integ_ntile,51
+Grenada,0,gov_integ_ntile,NA
+Guatemala,0,gov_integ_ntile,19
+Guinea,0,gov_integ_ntile,18
+Guinea-Bissau,0,gov_integ_ntile,20
+Guyana,0,gov_integ_ntile,44
+Haiti,0,gov_integ_ntile,13
+Honduras,0,gov_integ_ntile,23
+Hungary,0,gov_integ_ntile,46
+Iceland,2,gov_integ_ntile,92
+India,0,gov_integ_ntile,70
+Indonesia,1,gov_integ_ntile,67
+Iran,0,gov_integ_ntile,37
+Iraq,0,gov_integ_ntile,11
+Ireland,2,gov_integ_ntile,94
+Israel,1,gov_integ_ntile,84
+Italy,0,gov_integ_ntile,61
+Jamaica,1,gov_integ_ntile,57
+Japan,2,gov_integ_ntile,96
+Jordan,0,gov_integ_ntile,80
+Kazakhstan,0,gov_integ_ntile,67
+Kenya,0,gov_integ_ntile,22
+Kiribati,0,gov_integ_ntile,52
+Korea (Dem. People's Rep.),0,gov_integ_ntile,NA
+Korea (Rep.),0,gov_integ_ntile,72
+Kosovo,0,gov_integ_ntile,68
+Kuwait,0,gov_integ_ntile,47
+Kyrgyzstan,0,gov_integ_ntile,29
+Laos,0,gov_integ_ntile,39
+Latvia,0,gov_integ_ntile,68
+Lebanon,0,gov_integ_ntile,4
+Lesotho,0,gov_integ_ntile,38
+Liberia,0,gov_integ_ntile,35
+Libya,0,gov_integ_ntile,8
+Liechtenstein,1,gov_integ_ntile,NA
+Lithuania,0,gov_integ_ntile,75
+Luxembourg,2,gov_integ_ntile,94
+Macedonia,0,gov_integ_ntile,71
+Madagascar,0,gov_integ_ntile,2
+Malawi,0,gov_integ_ntile,26
+Malaysia,0,gov_integ_ntile,82
+Maldives,0,gov_integ_ntile,48
+Mali,0,gov_integ_ntile,33
+Malta,0,gov_integ_ntile,73
+Marshall Islands,0,gov_integ_ntile,NA
+Mauritania,0,gov_integ_ntile,27
+Mauritius,0,gov_integ_ntile,81
+Mexico,1,gov_integ_ntile,18
+Micronesia,0,gov_integ_ntile,56
+Moldova,0,gov_integ_ntile,17
+Monaco,0,gov_integ_ntile,NA
+Mongolia,0,gov_integ_ntile,44
+Montenegro,0,gov_integ_ntile,53
+Morocco,0,gov_integ_ntile,64
+Mozambique,0,gov_integ_ntile,23
+Myanmar,0,gov_integ_ntile,24
+Namibia,0,gov_integ_ntile,69
+Nauru,0,gov_integ_ntile,NA
+Nepal,0,gov_integ_ntile,14
+Netherlands,2,gov_integ_ntile,97
+New Zealand,2,gov_integ_ntile,100
+Nicaragua,1,gov_integ_ntile,11
+Niger,0,gov_integ_ntile,31
+Nigeria,0,gov_integ_ntile,1
+Norway,2,gov_integ_ntile,99
+Oman,0,gov_integ_ntile,77
+Pakistan,0,gov_integ_ntile,21
+Palau,0,gov_integ_ntile,NA
+Panama,1,gov_integ_ntile,56
+Papua New Guinea,0,gov_integ_ntile,39
+Paraguay,0,gov_integ_ntile,24
+Peru,0,gov_integ_ntile,48
+Philippines,1,gov_integ_ntile,42
+Poland,0,gov_integ_ntile,76
+Portugal,0,gov_integ_ntile,83
+Qatar,0,gov_integ_ntile,88
+Romania,0,gov_integ_ntile,60
+Russia,0,gov_integ_ntile,53
+Rwanda,0,gov_integ_ntile,85
+Saint Kitts and Nevis,0,gov_integ_ntile,NA
+Saint Lucia,0,gov_integ_ntile,76
+Saint Vincent and the Grenadines,0,gov_integ_ntile,78
+Samoa,0,gov_integ_ntile,61
+San Marino,0,gov_integ_ntile,NA
+Sao Tome and Principe,0,gov_integ_ntile,58
+Saudi Arabia,0,gov_integ_ntile,73
+Senegal,0,gov_integ_ntile,66
+Serbia,0,gov_integ_ntile,46
+Seychelles,0,gov_integ_ntile,57
+Sierra Leone,0,gov_integ_ntile,7
+Singapore,2,gov_integ_ntile,98
+Slovakia,0,gov_integ_ntile,54
+Slovenia,0,gov_integ_ntile,81
+Solomon Islands,0,gov_integ_ntile,49
+Somalia,0,gov_integ_ntile,3
+South Africa,0,gov_integ_ntile,69
+South Sudan,0,gov_integ_ntile,NA
+Spain,1,gov_integ_ntile,78
+Sri Lanka,0,gov_integ_ntile,32
+Sudan,0,gov_integ_ntile,6
+Suriname,0,gov_integ_ntile,59
+Sweden,2,gov_integ_ntile,99
+Switzerland,2,gov_integ_ntile,96
+Syria,0,gov_integ_ntile,9
+Taiwan,0,gov_integ_ntile,87
+Tajikistan,0,gov_integ_ntile,55
+Tanzania,0,gov_integ_ntile,34
+Thailand,1,gov_integ_ntile,43
+Timor-Leste,0,gov_integ_ntile,36
+Togo,0,gov_integ_ntile,33
+Tonga,0,gov_integ_ntile,63
+Trinidad and Tobago,0,gov_integ_ntile,40
+Tunisia,0,gov_integ_ntile,50
+Turkey,0,gov_integ_ntile,65
+Turkmenistan,0,gov_integ_ntile,21
+Tuvalu,0,gov_integ_ntile,NA
+Uganda,0,gov_integ_ntile,25
+Ukraine,0,gov_integ_ntile,28
+United Arab Emirates,1,gov_integ_ntile,92
+United Kingdom,2,gov_integ_ntile,95
+United States,2,gov_integ_ntile,89
+Uruguay,1,gov_integ_ntile,88
+Uzbekistan,0,gov_integ_ntile,12
+Vanuatu,1,gov_integ_ntile,91
+Venezuela,0,gov_integ_ntile,1
+Vietnam,1,gov_integ_ntile,31
+Yemen,0,gov_integ_ntile,6
+Zambia,0,gov_integ_ntile,45
+Zimbabwe,0,gov_integ_ntile,4
+Afghanistan,0,prop_rights_ntile,3
+Albania,1,prop_rights_ntile,59
+Algeria,0,prop_rights_ntile,8
+Andorra,0,prop_rights_ntile,NA
+Angola,0,prop_rights_ntile,24
+Antigua & Barbuda,0,prop_rights_ntile,NA
+Argentina,1,prop_rights_ntile,36
+Armenia,0,prop_rights_ntile,62
+Australia,2,prop_rights_ntile,87
+Austria,2,prop_rights_ntile,91
+Azerbaijan,0,prop_rights_ntile,58
+Bahamas,0,prop_rights_ntile,44
+Bahrain,0,prop_rights_ntile,72
+Bangladesh,1,prop_rights_ntile,15
+Barbados,0,prop_rights_ntile,53
+Belarus,0,prop_rights_ntile,57
+Belgium,2,prop_rights_ntile,90
+Belize,0,prop_rights_ntile,38
+Benin,0,prop_rights_ntile,23
+Bhutan,0,prop_rights_ntile,69
+Bolivia,0,prop_rights_ntile,4
+Bosnia and Herzegovina,0,prop_rights_ntile,33
+Botswana,0,prop_rights_ntile,67
+Brazil,0,prop_rights_ntile,63
+Brunei,0,prop_rights_ntile,NA
+Bulgaria,0,prop_rights_ntile,74
+Burkina Faso,0,prop_rights_ntile,38
+Burundi,0,prop_rights_ntile,2
+Cabo Verde,0,prop_rights_ntile,39
+Cambodia,0,prop_rights_ntile,24
+Cameroon,0,prop_rights_ntile,36
+Canada,2,prop_rights_ntile,96
+Central African Republic,0,prop_rights_ntile,4
+Chad,0,prop_rights_ntile,7
+Chile,0,prop_rights_ntile,76
+China,0,prop_rights_ntile,46
+Colombia,1,prop_rights_ntile,68
+Comoros,0,prop_rights_ntile,26
+Congo (Dem. Rep.),0,prop_rights_ntile,6
+Congo (Rep.),0,prop_rights_ntile,16
+Costa Rica,2,prop_rights_ntile,61
+Cote d'Ivoire,0,prop_rights_ntile,33
+Croatia,0,prop_rights_ntile,75
+Cuba,0,prop_rights_ntile,10
+Cyprus,0,prop_rights_ntile,83
+Czech Republic,1,prop_rights_ntile,84
+Denmark,2,prop_rights_ntile,94
+Djibouti,0,prop_rights_ntile,5
+Dominica,0,prop_rights_ntile,47
+Dominican Republic,0,prop_rights_ntile,54
+Ecuador,1,prop_rights_ntile,26
+Egypt,0,prop_rights_ntile,18
+El Salvador,1,prop_rights_ntile,28
+Equatorial Guinea,0,prop_rights_ntile,11
+Eritrea,0,prop_rights_ntile,23
+Estonia,0,prop_rights_ntile,89
+Eswatini,0,prop_rights_ntile,NA
+Ethiopia,0,prop_rights_ntile,13
+Fiji,0,prop_rights_ntile,79
+Finland,2,prop_rights_ntile,98
+France,1,prop_rights_ntile,92
+Gabon,0,prop_rights_ntile,12
+"Gambia, The",0,prop_rights_ntile,22
+Georgia,0,prop_rights_ntile,73
+Germany,2,prop_rights_ntile,89
+Ghana,0,prop_rights_ntile,49
+Greece,0,prop_rights_ntile,55
+Grenada,0,prop_rights_ntile,NA
+Guatemala,0,prop_rights_ntile,35
+Guinea,0,prop_rights_ntile,16
+Guinea-Bissau,0,prop_rights_ntile,14
+Guyana,0,prop_rights_ntile,39
+Haiti,0,prop_rights_ntile,7
+Honduras,0,prop_rights_ntile,41
+Hungary,0,prop_rights_ntile,66
+Iceland,2,prop_rights_ntile,96
+India,0,prop_rights_ntile,63
+Indonesia,1,prop_rights_ntile,50
+Iran,0,prop_rights_ntile,17
+Iraq,0,prop_rights_ntile,27
+Ireland,2,prop_rights_ntile,97
+Israel,1,prop_rights_ntile,87
+Italy,0,prop_rights_ntile,83
+Jamaica,1,prop_rights_ntile,70
+Japan,2,prop_rights_ntile,94
+Jordan,0,prop_rights_ntile,66
+Kazakhstan,0,prop_rights_ntile,64
+Kenya,0,prop_rights_ntile,47
+Kiribati,0,prop_rights_ntile,41
+Korea (Dem. People's Rep.),0,prop_rights_ntile,NA
+Korea (Rep.),0,prop_rights_ntile,88
+Kosovo,0,prop_rights_ntile,56
+Kuwait,0,prop_rights_ntile,54
+Kyrgyzstan,0,prop_rights_ntile,52
+Laos,0,prop_rights_ntile,21
+Latvia,0,prop_rights_ntile,79
+Lebanon,0,prop_rights_ntile,34
+Lesotho,0,prop_rights_ntile,51
+Liberia,0,prop_rights_ntile,9
+Libya,0,prop_rights_ntile,1
+Liechtenstein,1,prop_rights_ntile,NA
+Lithuania,0,prop_rights_ntile,85
+Luxembourg,2,prop_rights_ntile,91
+Macedonia,0,prop_rights_ntile,74
+Madagascar,0,prop_rights_ntile,20
+Malawi,0,prop_rights_ntile,19
+Malaysia,0,prop_rights_ntile,92
+Maldives,0,prop_rights_ntile,42
+Mali,0,prop_rights_ntile,14
+Malta,0,prop_rights_ntile,78
+Marshall Islands,0,prop_rights_ntile,NA
+Mauritania,0,prop_rights_ntile,6
+Mauritius,0,prop_rights_ntile,80
+Mexico,1,prop_rights_ntile,67
+Micronesia,0,prop_rights_ntile,1
+Moldova,0,prop_rights_ntile,58
+Monaco,0,prop_rights_ntile,NA
+Mongolia,0,prop_rights_ntile,53
+Montenegro,0,prop_rights_ntile,60
+Morocco,0,prop_rights_ntile,59
+Mozambique,0,prop_rights_ntile,22
+Myanmar,0,prop_rights_ntile,17
+Namibia,0,prop_rights_ntile,64
+Nauru,0,prop_rights_ntile,NA
+Nepal,0,prop_rights_ntile,29
+Netherlands,2,prop_rights_ntile,97
+New Zealand,2,prop_rights_ntile,99
+Nicaragua,1,prop_rights_ntile,11
+Niger,0,prop_rights_ntile,29
+Nigeria,0,prop_rights_ntile,30
+Norway,2,prop_rights_ntile,95
+Oman,0,prop_rights_ntile,68
+Pakistan,0,prop_rights_ntile,25
+Palau,0,prop_rights_ntile,NA
+Panama,1,prop_rights_ntile,71
+Papua New Guinea,0,prop_rights_ntile,31
+Paraguay,0,prop_rights_ntile,32
+Peru,0,prop_rights_ntile,65
+Philippines,1,prop_rights_ntile,42
+Poland,0,prop_rights_ntile,72
+Portugal,0,prop_rights_ntile,81
+Qatar,0,prop_rights_ntile,82
+Romania,0,prop_rights_ntile,71
+Russia,0,prop_rights_ntile,48
+Rwanda,0,prop_rights_ntile,82
+Saint Kitts and Nevis,0,prop_rights_ntile,NA
+Saint Lucia,0,prop_rights_ntile,77
+Saint Vincent and the Grenadines,0,prop_rights_ntile,27
+Samoa,0,prop_rights_ntile,56
+San Marino,0,prop_rights_ntile,NA
+Sao Tome and Principe,0,prop_rights_ntile,31
+Saudi Arabia,0,prop_rights_ntile,57
+Senegal,0,prop_rights_ntile,37
+Serbia,0,prop_rights_ntile,43
+Seychelles,0,prop_rights_ntile,69
+Sierra Leone,0,prop_rights_ntile,21
+Singapore,2,prop_rights_ntile,100
+Slovakia,0,prop_rights_ntile,78
+Slovenia,0,prop_rights_ntile,86
+Solomon Islands,0,prop_rights_ntile,51
+Somalia,0,prop_rights_ntile,19
+South Africa,0,prop_rights_ntile,76
+South Sudan,0,prop_rights_ntile,NA
+Spain,1,prop_rights_ntile,84
+Sri Lanka,0,prop_rights_ntile,45
+Sudan,0,prop_rights_ntile,9
+Suriname,0,prop_rights_ntile,34
+Sweden,2,prop_rights_ntile,99
+Switzerland,2,prop_rights_ntile,93
+Syria,0,prop_rights_ntile,28
+Taiwan,0,prop_rights_ntile,93
+Tajikistan,0,prop_rights_ntile,46
+Tanzania,0,prop_rights_ntile,32
+Thailand,1,prop_rights_ntile,48
+Timor-Leste,0,prop_rights_ntile,13
+Togo,0,prop_rights_ntile,18
+Tonga,0,prop_rights_ntile,73
+Trinidad and Tobago,0,prop_rights_ntile,62
+Tunisia,0,prop_rights_ntile,52
+Turkey,0,prop_rights_ntile,61
+Turkmenistan,0,prop_rights_ntile,12
+Tuvalu,0,prop_rights_ntile,NA
+Uganda,0,prop_rights_ntile,40
+Ukraine,0,prop_rights_ntile,37
+United Arab Emirates,1,prop_rights_ntile,86
+United Kingdom,2,prop_rights_ntile,98
+United States,2,prop_rights_ntile,88
+Uruguay,1,prop_rights_ntile,81
+Uzbekistan,0,prop_rights_ntile,49
+Vanuatu,1,prop_rights_ntile,77
+Venezuela,0,prop_rights_ntile,2
+Vietnam,1,prop_rights_ntile,44
+Yemen,0,prop_rights_ntile,3
+Zambia,0,prop_rights_ntile,43
+Zimbabwe,0,prop_rights_ntile,8
+Afghanistan,0,ec_free_ntile,15
+Albania,1,ec_free_ntile,64
+Algeria,0,ec_free_ntile,5
+Andorra,0,ec_free_ntile,NA
+Angola,0,ec_free_ntile,9
+Antigua & Barbuda,0,ec_free_ntile,NA
+Argentina,1,ec_free_ntile,20
+Armenia,0,ec_free_ntile,77
+Australia,2,ec_free_ntile,98
+Austria,2,ec_free_ntile,83
+Azerbaijan,0,ec_free_ntile,63
+Bahamas,0,ec_free_ntile,60
+Bahrain,0,ec_free_ntile,73
+Bangladesh,1,ec_free_ntile,30
+Barbados,0,ec_free_ntile,35
+Belarus,0,ec_free_ntile,41
+Belgium,2,ec_free_ntile,72
+Belize,0,ec_free_ntile,36
+Benin,0,ec_free_ntile,34
+Bhutan,0,ec_free_ntile,53
+Bolivia,0,ec_free_ntile,4
+Bosnia and Herzegovina,0,ec_free_ntile,50
+Botswana,0,ec_free_ntile,82
+Brazil,0,ec_free_ntile,15
+Brunei,0,ec_free_ntile,NA
+Bulgaria,0,ec_free_ntile,75
+Burkina Faso,0,ec_free_ntile,47
+Burundi,0,ec_free_ntile,13
+Cabo Verde,0,ec_free_ntile,48
+Cambodia,0,ec_free_ntile,44
+Cameroon,0,ec_free_ntile,17
+Canada,2,ec_free_ntile,96
+Central African Republic,0,ec_free_ntile,10
+Chad,0,ec_free_ntile,10
+Chile,0,ec_free_ntile,90
+China,0,ec_free_ntile,39
+Colombia,1,ec_free_ntile,78
+Comoros,0,ec_free_ntile,33
+Congo (Dem. Rep.),0,ec_free_ntile,19
+Congo (Rep.),0,ec_free_ntile,2
+Costa Rica,2,ec_free_ntile,69
+Cote d'Ivoire,0,ec_free_ntile,54
+Croatia,0,ec_free_ntile,49
+Cuba,0,ec_free_ntile,1
+Cyprus,0,ec_free_ntile,74
+Czech Republic,1,ec_free_ntile,87
+Denmark,2,ec_free_ntile,94
+Djibouti,0,ec_free_ntile,5
+Dominica,0,ec_free_ntile,65
+Dominican Republic,0,ec_free_ntile,51
+Ecuador,1,ec_free_ntile,9
+Egypt,0,ec_free_ntile,23
+El Salvador,1,ec_free_ntile,59
+Equatorial Guinea,0,ec_free_ntile,3
+Eritrea,0,ec_free_ntile,2
+Estonia,0,ec_free_ntile,97
+Eswatini,0,ec_free_ntile,NA
+Ethiopia,0,ec_free_ntile,22
+Fiji,0,ec_free_ntile,54
+Finland,2,ec_free_ntile,86
+France,1,ec_free_ntile,62
+Gabon,0,ec_free_ntile,40
+"Gambia, The",0,ec_free_ntile,21
+Georgia,0,ec_free_ntile,91
+Germany,2,ec_free_ntile,87
+Ghana,0,ec_free_ntile,33
+Greece,0,ec_free_ntile,37
+Grenada,0,ec_free_ntile,NA
+Guatemala,0,ec_free_ntile,61
+Guinea,0,ec_free_ntile,19
+Guinea-Bissau,0,ec_free_ntile,35
+Guyana,0,ec_free_ntile,45
+Haiti,0,ec_free_ntile,32
+Honduras,0,ec_free_ntile,49
+Hungary,0,ec_free_ntile,70
+Iceland,2,ec_free_ntile,95
+India,0,ec_free_ntile,29
+Indonesia,1,ec_free_ntile,62
+Iran,0,ec_free_ntile,13
+Iraq,0,ec_free_ntile,NA
+Ireland,2,ec_free_ntile,98
+Israel,1,ec_free_ntile,83
+Italy,0,ec_free_ntile,57
+Jamaica,1,ec_free_ntile,78
+Japan,2,ec_free_ntile,84
+Jordan,0,ec_free_ntile,66
+Kazakhstan,0,ec_free_ntile,79
+Kenya,0,ec_free_ntile,29
+Kiribati,0,ec_free_ntile,12
+Korea (Dem. People's Rep.),0,ec_free_ntile,NA
+Korea (Rep.),0,ec_free_ntile,86
+Kosovo,0,ec_free_ntile,70
+Kuwait,0,ec_free_ntile,56
+Kyrgyzstan,0,ec_free_ntile,58
+Laos,0,ec_free_ntile,24
+Latvia,0,ec_free_ntile,85
+Lebanon,0,ec_free_ntile,23
+Lesotho,0,ec_free_ntile,25
+Liberia,0,ec_free_ntile,14
+Libya,0,ec_free_ntile,NA
+Liechtenstein,1,ec_free_ntile,NA
+Lithuania,0,ec_free_ntile,90
+Luxembourg,2,ec_free_ntile,93
+Macedonia,0,ec_free_ntile,82
+Madagascar,0,ec_free_ntile,34
+Malawi,0,ec_free_ntile,18
+Malaysia,0,ec_free_ntile,89
+Maldives,0,ec_free_ntile,14
+Mali,0,ec_free_ntile,38
+Malta,0,ec_free_ntile,75
+Marshall Islands,0,ec_free_ntile,NA
+Mauritania,0,ec_free_ntile,26
+Mauritius,0,ec_free_ntile,89
+Mexico,1,ec_free_ntile,65
+Micronesia,0,ec_free_ntile,21
+Moldova,0,ec_free_ntile,42
+Monaco,0,ec_free_ntile,NA
+Mongolia,0,ec_free_ntile,30
+Montenegro,0,ec_free_ntile,63
+Morocco,0,ec_free_ntile,53
+Mozambique,0,ec_free_ntile,6
+Myanmar,0,ec_free_ntile,26
+Namibia,0,ec_free_ntile,43
+Nauru,0,ec_free_ntile,NA
+Nepal,0,ec_free_ntile,27
+Netherlands,2,ec_free_ntile,92
+New Zealand,2,ec_free_ntile,99
+Nicaragua,1,ec_free_ntile,45
+Niger,0,ec_free_ntile,11
+Nigeria,0,ec_free_ntile,43
+Norway,2,ec_free_ntile,88
+Oman,0,ec_free_ntile,50
+Pakistan,0,ec_free_ntile,28
+Palau,0,ec_free_ntile,NA
+Panama,1,ec_free_ntile,71
+Papua New Guinea,0,ec_free_ntile,31
+Paraguay,0,ec_free_ntile,55
+Peru,0,ec_free_ntile,77
+Philippines,1,ec_free_ntile,67
+Poland,0,ec_free_ntile,76
+Portugal,0,ec_free_ntile,61
+Qatar,0,ec_free_ntile,85
+Romania,0,ec_free_ntile,81
+Russia,0,ec_free_ntile,41
+Rwanda,0,ec_free_ntile,79
+Saint Kitts and Nevis,0,ec_free_ntile,NA
+Saint Lucia,0,ec_free_ntile,73
+Saint Vincent and the Grenadines,0,ec_free_ntile,74
+Samoa,0,ec_free_ntile,51
+San Marino,0,ec_free_ntile,NA
+Sao Tome and Principe,0,ec_free_ntile,25
+Saudi Arabia,0,ec_free_ntile,46
+Senegal,0,ec_free_ntile,31
+Serbia,0,ec_free_ntile,57
+Seychelles,0,ec_free_ntile,52
+Sierra Leone,0,ec_free_ntile,17
+Singapore,2,ec_free_ntile,100
+Slovakia,0,ec_free_ntile,68
+Slovenia,0,ec_free_ntile,66
+Solomon Islands,0,ec_free_ntile,37
+Somalia,0,ec_free_ntile,NA
+South Africa,0,ec_free_ntile,58
+South Sudan,0,ec_free_ntile,NA
+Spain,1,ec_free_ntile,67
+Sri Lanka,0,ec_free_ntile,39
+Sudan,0,ec_free_ntile,11
+Suriname,0,ec_free_ntile,7
+Sweden,2,ec_free_ntile,93
+Switzerland,2,ec_free_ntile,99
+Syria,0,ec_free_ntile,NA
+Taiwan,0,ec_free_ntile,94
+Tajikistan,0,ec_free_ntile,42
+Tanzania,0,ec_free_ntile,47
+Thailand,1,ec_free_ntile,71
+Timor-Leste,0,ec_free_ntile,8
+Togo,0,ec_free_ntile,7
+Tonga,0,ec_free_ntile,59
+Trinidad and Tobago,0,ec_free_ntile,38
+Tunisia,0,ec_free_ntile,46
+Turkey,0,ec_free_ntile,69
+Turkmenistan,0,ec_free_ntile,6
+Tuvalu,0,ec_free_ntile,NA
+Uganda,0,ec_free_ntile,55
+Ukraine,0,ec_free_ntile,18
+United Arab Emirates,1,ec_free_ntile,95
+United Kingdom,2,ec_free_ntile,97
+United States,2,ec_free_ntile,91
+Uruguay,1,ec_free_ntile,80
+Uzbekistan,0,ec_free_ntile,16
+Vanuatu,1,ec_free_ntile,81
+Venezuela,0,ec_free_ntile,1
+Vietnam,1,ec_free_ntile,22
+Yemen,0,ec_free_ntile,NA
+Zambia,0,ec_free_ntile,27
+Zimbabwe,0,ec_free_ntile,3
+Afghanistan,0,fin_free_ntile,1
+Albania,1,fin_free_ntile,79
+Algeria,0,fin_free_ntile,11
+Andorra,0,fin_free_ntile,NA
+Angola,0,fin_free_ntile,28
+Antigua & Barbuda,0,fin_free_ntile,NA
+Argentina,1,fin_free_ntile,61
+Armenia,0,fin_free_ntile,80
+Australia,2,fin_free_ntile,99
+Austria,2,fin_free_ntile,81
+Azerbaijan,0,fin_free_ntile,61
+Bahamas,0,fin_free_ntile,62
+Bahrain,0,fin_free_ntile,91
+Bangladesh,1,fin_free_ntile,12
+Barbados,0,fin_free_ntile,62
+Belarus,0,fin_free_ntile,1
+Belgium,2,fin_free_ntile,81
+Belize,0,fin_free_ntile,42
+Benin,0,fin_free_ntile,43
+Bhutan,0,fin_free_ntile,12
+Bolivia,0,fin_free_ntile,28
+Bosnia and Herzegovina,0,fin_free_ntile,63
+Botswana,0,fin_free_ntile,82
+Brazil,0,fin_free_ntile,43
+Brunei,0,fin_free_ntile,NA
+Bulgaria,0,fin_free_ntile,64
+Burkina Faso,0,fin_free_ntile,29
+Burundi,0,fin_free_ntile,13
+Cabo Verde,0,fin_free_ntile,64
+Cambodia,0,fin_free_ntile,44
+Cameroon,0,fin_free_ntile,44
+Canada,2,fin_free_ntile,92
+Central African Republic,0,fin_free_ntile,14
+Chad,0,fin_free_ntile,29
+Chile,0,fin_free_ntile,82
+China,0,fin_free_ntile,5
+Colombia,1,fin_free_ntile,83
+Comoros,0,fin_free_ntile,14
+Congo (Dem. Rep.),0,fin_free_ntile,6
+Congo (Rep.),0,fin_free_ntile,15
+Costa Rica,2,fin_free_ntile,45
+Cote d'Ivoire,0,fin_free_ntile,45
+Croatia,0,fin_free_ntile,65
+Cuba,0,fin_free_ntile,2
+Cyprus,0,fin_free_ntile,65
+Czech Republic,1,fin_free_ntile,93
+Denmark,2,fin_free_ntile,93
+Djibouti,0,fin_free_ntile,46
+Dominica,0,fin_free_ntile,15
+Dominican Republic,0,fin_free_ntile,30
+Ecuador,1,fin_free_ntile,31
+Egypt,0,fin_free_ntile,47
+El Salvador,1,fin_free_ntile,66
+Equatorial Guinea,0,fin_free_ntile,16
+Eritrea,0,fin_free_ntile,6
+Estonia,0,fin_free_ntile,94
+Eswatini,0,fin_free_ntile,NA
+Ethiopia,0,fin_free_ntile,7
+Fiji,0,fin_free_ntile,47
+Finland,2,fin_free_ntile,94
+France,1,fin_free_ntile,83
+Gabon,0,fin_free_ntile,31
+"Gambia, The",0,fin_free_ntile,48
+Georgia,0,fin_free_ntile,66
+Germany,2,fin_free_ntile,84
+Ghana,0,fin_free_ntile,67
+Greece,0,fin_free_ntile,32
+Grenada,0,fin_free_ntile,NA
+Guatemala,0,fin_free_ntile,48
+Guinea,0,fin_free_ntile,32
+Guinea-Bissau,0,fin_free_ntile,16
+Guyana,0,fin_free_ntile,17
+Haiti,0,fin_free_ntile,18
+Honduras,0,fin_free_ntile,68
+Hungary,0,fin_free_ntile,85
+Iceland,2,fin_free_ntile,85
+India,0,fin_free_ntile,33
+Indonesia,1,fin_free_ntile,68
+Iran,0,fin_free_ntile,2
+Iraq,0,fin_free_ntile,NA
+Ireland,2,fin_free_ntile,86
+Israel,1,fin_free_ntile,86
+Italy,0,fin_free_ntile,49
+Jamaica,1,fin_free_ntile,49
+Japan,2,fin_free_ntile,69
+Jordan,0,fin_free_ntile,69
+Kazakhstan,0,fin_free_ntile,50
+Kenya,0,fin_free_ntile,51
+Kiribati,0,fin_free_ntile,18
+Korea (Dem. People's Rep.),0,fin_free_ntile,NA
+Korea (Rep.),0,fin_free_ntile,87
+Kosovo,0,fin_free_ntile,19
+Kuwait,0,fin_free_ntile,70
+Kyrgyzstan,0,fin_free_ntile,51
+Laos,0,fin_free_ntile,7
+Latvia,0,fin_free_ntile,70
+Lebanon,0,fin_free_ntile,52
+Lesotho,0,fin_free_ntile,33
+Liberia,0,fin_free_ntile,8
+Libya,0,fin_free_ntile,NA
+Liechtenstein,1,fin_free_ntile,95
+Lithuania,0,fin_free_ntile,87
+Luxembourg,2,fin_free_ntile,95
+Macedonia,0,fin_free_ntile,71
+Madagascar,0,fin_free_ntile,52
+Malawi,0,fin_free_ntile,53
+Malaysia,0,fin_free_ntile,53
+Maldives,0,fin_free_ntile,19
+Mali,0,fin_free_ntile,34
+Malta,0,fin_free_ntile,72
+Marshall Islands,0,fin_free_ntile,NA
+Mauritania,0,fin_free_ntile,35
+Mauritius,0,fin_free_ntile,88
+Mexico,1,fin_free_ntile,72
+Micronesia,0,fin_free_ntile,20
+Moldova,0,fin_free_ntile,54
+Monaco,0,fin_free_ntile,NA
+Mongolia,0,fin_free_ntile,73
+Montenegro,0,fin_free_ntile,54
+Morocco,0,fin_free_ntile,89
+Mozambique,0,fin_free_ntile,55
+Myanmar,0,fin_free_ntile,8
+Namibia,0,fin_free_ntile,35
+Nauru,0,fin_free_ntile,NA
+Nepal,0,fin_free_ntile,20
+Netherlands,2,fin_free_ntile,96
+New Zealand,2,fin_free_ntile,97
+Nicaragua,1,fin_free_ntile,56
+Niger,0,fin_free_ntile,36
+Nigeria,0,fin_free_ntile,36
+Norway,2,fin_free_ntile,73
+Oman,0,fin_free_ntile,74
+Pakistan,0,fin_free_ntile,37
+Palau,0,fin_free_ntile,NA
+Panama,1,fin_free_ntile,89
+Papua New Guinea,0,fin_free_ntile,21
+Paraguay,0,fin_free_ntile,74
+Peru,0,fin_free_ntile,75
+Philippines,1,fin_free_ntile,76
+Poland,0,fin_free_ntile,90
+Portugal,0,fin_free_ntile,76
+Qatar,0,fin_free_ntile,77
+Romania,0,fin_free_ntile,56
+Russia,0,fin_free_ntile,22
+Rwanda,0,fin_free_ntile,37
+Saint Kitts and Nevis,0,fin_free_ntile,NA
+Saint Lucia,0,fin_free_ntile,38
+Saint Vincent and the Grenadines,0,fin_free_ntile,39
+Samoa,0,fin_free_ntile,22
+San Marino,0,fin_free_ntile,NA
+Sao Tome and Principe,0,fin_free_ntile,23
+Saudi Arabia,0,fin_free_ntile,57
+Senegal,0,fin_free_ntile,39
+Serbia,0,fin_free_ntile,57
+Seychelles,0,fin_free_ntile,23
+Sierra Leone,0,fin_free_ntile,9
+Singapore,2,fin_free_ntile,97
+Slovakia,0,fin_free_ntile,90
+Slovenia,0,fin_free_ntile,58
+Solomon Islands,0,fin_free_ntile,24
+Somalia,0,fin_free_ntile,NA
+South Africa,0,fin_free_ntile,58
+South Sudan,0,fin_free_ntile,NA
+Spain,1,fin_free_ntile,91
+Sri Lanka,0,fin_free_ntile,40
+Sudan,0,fin_free_ntile,10
+Suriname,0,fin_free_ntile,24
+Sweden,2,fin_free_ntile,98
+Switzerland,2,fin_free_ntile,100
+Syria,0,fin_free_ntile,NA
+Taiwan,0,fin_free_ntile,77
+Tajikistan,0,fin_free_ntile,25
+Tanzania,0,fin_free_ntile,59
+Thailand,1,fin_free_ntile,78
+Timor-Leste,0,fin_free_ntile,10
+Togo,0,fin_free_ntile,26
+Tonga,0,fin_free_ntile,11
+Trinidad and Tobago,0,fin_free_ntile,60
+Tunisia,0,fin_free_ntile,26
+Turkey,0,fin_free_ntile,78
+Turkmenistan,0,fin_free_ntile,3
+Tuvalu,0,fin_free_ntile,NA
+Uganda,0,fin_free_ntile,40
+Ukraine,0,fin_free_ntile,27
+United Arab Emirates,1,fin_free_ntile,79
+United Kingdom,2,fin_free_ntile,98
+United States,2,fin_free_ntile,99
+Uruguay,1,fin_free_ntile,27
+Uzbekistan,0,fin_free_ntile,3
+Vanuatu,1,fin_free_ntile,41
+Venezuela,0,fin_free_ntile,4
+Vietnam,1,fin_free_ntile,41
+Yemen,0,fin_free_ntile,NA
+Zambia,0,fin_free_ntile,60
+Zimbabwe,0,fin_free_ntile,4
