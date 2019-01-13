@@ -41,7 +41,6 @@
 
 		data.sort(function(x, y) { return d3.ascending(x.country_name, y.country_name); });
 		var nested_data = d3.nest().key(function(d) { return d.country_name; }).entries(data.filter(function(d) { return !isNaN(d.percentile); }));
-		console.log(nested_data);
 
 		drawLegend(legendData);
 		makeSuns(nested_data);
