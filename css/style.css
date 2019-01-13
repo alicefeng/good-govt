@@ -36,12 +36,12 @@ h1 {
 h2 {
     font-size: 1.73rem;
     /*font-weight: 400;*/
-    margin: 3em 0 1em 0;
+    margin: 3em 0 0 0;
 }
 
-.top_20_countries h2 {
+/*.top_20_countries h2 {
     margin-bottom: 0;
-}
+}*/
 
 h4 {
     font-size: 1rem;
@@ -57,6 +57,7 @@ p.intro {
 
 .subtitle {
     margin-top: 0.3em;
+    max-width: 800px;
 }
 
 section {
@@ -134,10 +135,10 @@ li.superstar.country.highlighted {
     margin-bottom: 30px;
 }
 */
-/*div.legend {
-    margin-top: 2em;
+div.legend {
+    margin-top: 40px;
 }
-*/
+
 .legend svg {
     vertical-align: bottom;
 }
