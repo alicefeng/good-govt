@@ -125,6 +125,11 @@ li.superstar.country.highlighted {
     margin-top: 4em;
 }
 
+.footnote {
+    clear: both;
+    font-size: 12px;
+}
+
 /*div.chart {
     margin-bottom: 30px;
 }

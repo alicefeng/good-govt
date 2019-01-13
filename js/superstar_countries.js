@@ -6,6 +6,7 @@ function highlightCountry(name) {
 	d3.selectAll("li.country").classed("highlighted", false);
 	d3.selectAll("li.superstar.country").classed("faded", true);
 
+	name = name.indexOf("*") > -1 ? name.slice(0, name.length - 1): name;
 	var nameSlug = slugifyName(name);
 	d3.selectAll("li.country." + nameSlug).classed("highlighted", true);
 	d3.selectAll("li.country." + nameSlug).classed("faded", false);
