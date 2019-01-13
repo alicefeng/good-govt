@@ -16,8 +16,8 @@ text {
 
 main,
 footer {
-    width: 60vw;
-    min-width: 800px;
+    /*width: 60vw;*/
+    width: 960px;
     margin: 0 auto;
 }
 
