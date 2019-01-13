@@ -156,6 +156,13 @@
 			.attr("y", height - 30)
 			.text("Worse");
 
+        var rect = svg.append("rect")
+            .attr("x", -70)
+            .attr("y", 0)
+            .attr("width", beeWidth + 70 + beeMargin["right"])
+            .attr("height", beeHeight)
+			.style("fill","transparent");
+
 		var simulation = d3.forceSimulation(data)
 			.force("x", d3.forceX(function(d) { return systemMetricsScale(d.metric); }).strength(0.2))
 			.force("y", d3.forceY(function(d) { return xScale(d.score); }).strength(1))
@@ -163,29 +170,6 @@
 			.stop();
 
 		for(var i = 0; i < 200; ++i) simulation.tick();
-
-		// var cell = svg.append("g")
-		// 	.attr("class", "cells")
-		// 	.selectAll("g")
-		// 	.data(d3.voronoi()
-		// 		.extent([[0, 0], [beeWidth, beeHeight]])
-		// 		.x(function(d) { return d.x; })
-		// 		.y(function(d) { return d.y; })
-		// 		.polygons(data))
-		// 	.enter()
-		// 	.append("g");
-
-		// cell.append("circle")
-		// 	.attr("class", function(d) { return "country " + slugifyName(d.data.country_name); })
-		// 	.attr("r", 4)
-		// 	.attr("cx", function(d) { return d.data.x; })
-		// 	.attr("cy", function(d) { return d.data.y; })
-		// 	.style("fill", function(d) { return colorScale(d.data.top_country); });
-
-		// cell.append("path")
-			// .attr("d", function(d) { return "M" + d.join("L") + "Z"; });
-			// .on("mouseover", function(d) {  showTooltip("health_ed_plot", d.data); })
-			// .on("mouseout", hideTooltip);
 
 		var countries = svg.selectAll(".country")
 			.data(data)
@@ -195,9 +179,42 @@
 			.attr("r", 4)
 			.attr("cx", function(d) { return d.x; })
 			.attr("cy", function(d) { return d.y; })
-			.style("fill", function(d) { return colorScale(d.top_country); })
-			.on("mouseover", function(d) { showTooltip("stable_system", d); })
-			.on("mouseout", hideTooltip);
+			.style("fill", function(d) { return colorScale(d.top_country); });
+			// .on("mouseover", function(d) { showTooltip("stable_system", d); })
+			// .on("mouseout", hideTooltip);
+
+		var maxDistanceFromPoint = 30;
+		svg._tooltipped = svg._voronoi = null;
+
+        svg.on('mousemove', function() {
+            if (!svg._voronoi) {
+                //if the voronoi doesn't exist, create it, with nodes at circle locations
+                svg._voronoi = d3.voronoi()
+                    .x(function(d) { return d.x; })
+                    .y(function(d) { return d.y; })
+                    (data);
+            }
+
+            //get the mouse position
+            var p = d3.mouse(this), site;
+
+            // if the mouse is near the edge of the svg, then set the site to null (this is equivilant to a "mouseout" event, if that makes sense)
+            if (p[0] < -70 || p[0] > beeWidth + beeMargin["right"] || p[1] < 0 || p[1] > beeHeight) {
+                site = null;
+            }
+            else {
+            //otherwise, use the voronoi's find method to grab the datum for the moused over circle
+                site = svg._voronoi.find(p[0], p[1], maxDistanceFromPoint);
+            }
+
+            if(site == null){
+            //site is null if the mouse is either near the svg edge, or is more than maxDistanceFromPoint away from any circle
+                hideTooltip();
+            }
+            else{
+                showTooltip("stable_system", site.data);
+            }
+		});
 	}
 
 	function showTooltip(chartID, d) {
